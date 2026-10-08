@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+<script>document.documentElement.classList.add("js")</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quiz 30 giây: Bạn hợp nồi chiên không dầu nào? | Chọn Mua Review</title>
@@ -37,7 +38,7 @@
   <h1>Quiz 30 giây: bạn hợp nồi chiên không dầu nào?</h1>
   <p class="lede">Trả lời 3 câu hỏi ngắn, mình gợi ý đúng mẫu hợp với nhà bạn nhất trong <a href="bai-viet/noi-chien-khong-dau.html">top 5 đã review</a>.</p>
 
-  <div class="quiz-card" id="quiz">
+  <div class="quiz-card reveal visible" id="quiz">
     <div class="quiz-progress"><span id="qbar" style="width:0%"></span></div>
     <div id="qbox"></div>
   </div>
@@ -59,7 +60,7 @@
       <h4>Thông tin</h4>
       <p><a href="gioi-thieu.html">Giới thiệu</a><br><a href="chinh-sach.html">Chính sách &amp; affiliate disclosure</a></p>
     </div>
-    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate, bạn không mất thêm phí khi mua qua link. <a href="chinh-sach.html">Tìm hiểu thêm</a>.</div>
+    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate, bạn không mất thêm phí khi mua qua link. <a href="chinh-sach.html">Tìm hiểu thêm</a>. <span class="perf-note">Đọc nhanh · Tải nhanh · Không quảng cáo chen ngang.</span></div>
   </div>
 </footer>
 
@@ -101,6 +102,7 @@
       h+='<button class="quiz-opt" data-v="'+o[1]+'">'+o[0]+'</button>';
     });
     qbox.innerHTML=h+'</div>';
+    qbox.classList.remove('quiz-anim');void qbox.offsetWidth;qbox.classList.add('quiz-anim');
     qbox.querySelectorAll(".quiz-opt").forEach(function(b){
       b.onclick=function(){ answers.push(b.getAttribute("data-v")); step++; render(); };
     });
@@ -121,5 +123,7 @@
   render();
 })();
 </script>
+  <script src="js/motion.js" defer></script>
+  <script>window.addEventListener("load",function(){setTimeout(function(){if(!window.__motionOK){document.documentElement.classList.remove("js")}},1800)})</script>
 </body>
 </html>

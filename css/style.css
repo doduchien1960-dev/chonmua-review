@@ -292,7 +292,111 @@ main{padding:40px 0 64px}
   border:1px solid var(--line);border-radius:var(--radius-s);display:block}
 .product-photo figcaption{font-size:.78rem;color:var(--faint);margin-top:7px}
 
+
+/* ================= V4 Editorial Cinematic ================= */
+:root{
+  --spotlight-bg:#101814;
+  --glow:rgba(13,107,69,.16);
+  --ease-out:cubic-bezier(.22,1,.36,1);
+  --ease-cine:cubic-bezier(.65,0,.35,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1);
+}
+body{overflow-x:clip}
+.breakout{width:100vw;position:relative;left:50%;margin-left:-50vw}
+
+/* Hero điện ảnh full-bleed */
+.hero-cine{position:relative;min-height:82vh;display:flex;align-items:flex-end;
+  overflow:hidden;margin-bottom:46px}
+.hero-cine-bg{position:absolute;inset:-14% 0;z-index:0;will-change:transform}
+.hero-cine-bg img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-cine-shade{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(8,12,10,.18) 0%,rgba(8,12,10,.52) 55%,rgba(8,12,10,.85) 100%)}
+.hero-cine-inner{position:relative;z-index:2;color:#fff;padding-top:110px;
+  padding-bottom:60px;max-width:880px;width:100%}
+.hero-cine .kicker{font-size:.78rem;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:#9fe0bd;margin-bottom:14px}
+.hero-cine h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;line-height:1.15;
+  letter-spacing:-.02em;color:#fff;margin-bottom:16px;max-width:22ch}
+.hero-cine h1 .reveal-hero{display:block}
+.hero-cine .lede{color:rgba(255,255,255,.88);font-size:1.06rem;max-width:58ch;margin-bottom:20px}
+.hero-chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.hero-chips span{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  padding:7px 15px;border-radius:20px;font-size:.82rem;font-weight:600;color:#fff}
+.hero-cine .disclosure{font-size:.82rem;color:rgba(255,255,255,.72);max-width:64ch}
+.hero-cine .disclosure a{color:#bfe9d2}
+/* Staggered reveal khi tải trang */
+.reveal-hero{opacity:0;transform:translateY(26px);
+  animation:heroIn .8s var(--ease-out) forwards;animation-delay:var(--d,0ms)}
+@keyframes heroIn{to{opacity:1;transform:none}}
+
+/* Spotlight deal nổi bật (nền tối điện ảnh) */
+.spotlight{background:var(--spotlight-bg);margin-bottom:46px;color:#eef2ee}
+.spotlight-inner{padding-top:52px;padding-bottom:52px;max-width:880px}
+.spotlight .kicker{font-size:.78rem;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:#9fe0bd;margin-bottom:16px}
+.spotlight-grid{display:grid;grid-template-columns:280px 1fr;gap:34px;align-items:center}
+.spotlight-grid img{width:100%;border-radius:var(--radius);display:block;background:#fff}
+.spotlight h2{font-size:1.7rem;font-weight:800;line-height:1.3;color:#fff;margin-bottom:12px}
+.spotlight p{color:#b9c4bb;font-size:.98rem;max-width:56ch}
+.spotlight .price{color:#ffd9a8;font-weight:800;font-size:1.25rem;margin:14px 0 4px}
+
+/* Card "biết nhìn lại": nghiêng 3D + quầng sáng theo chuột */
+.card[data-tilt]{transform-style:preserve-3d;position:relative;
+  transition:transform .12s ease-out,box-shadow .22s ease}
+.card[data-tilt]::after{content:"";position:absolute;inset:0;border-radius:inherit;
+  pointer-events:none;opacity:0;transition:opacity .25s;
+  background:radial-gradient(440px circle at var(--mx,50%) var(--my,50%),var(--glow),transparent 65%)}
+.card[data-tilt]:hover::after{opacity:1}
+
+/* Reveal theo cuộn — chỉ khi có JS (class js thêm ở <head>) */
+.js .reveal{opacity:0;transform:translateY(24px);
+  transition:opacity .6s var(--ease-out),transform .6s var(--ease-out);
+  transition-delay:var(--rd,0ms)}
+.js .reveal.visible{opacity:1;transform:none}
+
+/* Article hero parallax */
+.article-hero{overflow:hidden}
+.article-hero img[data-plx]{will-change:transform}
+
+/* Box sản phẩm: glow nhẹ khi hover */
+.product{transition:box-shadow .25s ease}
+.product:hover{box-shadow:0 12px 30px -10px rgba(13,107,69,.28)}
+
+/* CTA pulse khi hover */
+.btn-cta:hover{animation:ctaPulse .55s var(--ease-out)}
+@keyframes ctaPulse{0%{box-shadow:0 0 0 0 rgba(232,85,31,.45)}
+  100%{box-shadow:0 0 0 16px rgba(232,85,31,0)}}
+
+/* Bảng: highlight hàng khi hover */
+.spec-table tbody tr{transition:background .15s}
+.spec-table tbody tr:hover td{background:#f1ecdc}
+
+/* Quiz: chuyển câu + mở quà */
+#qbox.quiz-anim{animation:qSlide .32s var(--ease-cine)}
+@keyframes qSlide{from{opacity:0;transform:translateX(36px)}to{opacity:1;transform:none}}
+.quiz-result{animation:qPop .5s var(--ease-spring)}
+@keyframes qPop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+.perf-note{color:#878e9c}
+
+/* Tôn trọng giảm chuyển động */
+@media (prefers-reduced-motion:reduce){
+  .reveal-hero{opacity:1;transform:none;animation:none}
+  .js .reveal{opacity:1;transform:none;transition:none}
+  .btn-cta:hover{animation:none}
+  #qbox.quiz-anim,.quiz-result{animation:none}
+  html{scroll-behavior:auto}
+}
+@media (max-width:700px){
+  .hero-cine{min-height:72vh;margin-bottom:36px}
+  .hero-cine-inner{padding-top:90px;padding-bottom:44px}
+  .spotlight-grid{grid-template-columns:1fr;gap:20px}
+  .spotlight-grid img{max-width:320px}
+  .spotlight h2{font-size:1.4rem}
+}
+
 /* ---------- Responsive ---------- */
+
 @media (max-width:700px){
   body{font-size:16px}
   .hero h1{font-size:1.85rem}

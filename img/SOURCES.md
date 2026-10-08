@@ -34,7 +34,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 
 | File | Nguồn |
 |---|---|
-| hero.jpg | https://images.pexels.com/photos/29461935/pexels-photo-29461935.jpeg (Pexels, crop giữa 3:2 ngang) |
+| hero.jpg | https://sportshub.cbsistatic.com/i/2022/11/02/7d339c1b-5fe8-47eb-b7ce-d1def52a0605/air-fryer.jpg (CBS Sports, ảnh nồi chiên trên bàn bếp sáng) |
 | noi-chien.jpg | https://upload.wikimedia.org/wikipedia/commons/8/81/Airfryer%2C_falafel.jpg (Wikimedia Commons) |
 | tai-nghe.jpg | https://images.pexels.com/photos/31666152/pexels-photo-31666152.jpeg (Pexels) |
 | sac-du-phong.jpg | https://images.pexels.com/photos/37475662/pexels-photo-37475662/free-photo-of-smartphone-charging-with-power-bank-on-wooden-surface.jpeg (Pexels) |

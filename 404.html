@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+<script>document.documentElement.classList.add("js")</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Không tìm thấy trang | Chọn Mua Review</title>
@@ -25,7 +26,7 @@
   </div>
 </header>
 <main class="wrap">
-  <div class="notfound">
+  <div class="notfound reveal visible">
     <h1>404</h1>
     <p>Trang này không tồn tại hoặc đã bị dời đi chỗ khác.</p>
     <a class="btn-cta" href="index.html">Về trang chủ</a>
@@ -45,8 +46,10 @@
       <h4>Thông tin</h4>
       <p><a href="gioi-thieu.html">Giới thiệu</a><br><a href="chinh-sach.html">Chính sách &amp; affiliate disclosure</a></p>
     </div>
-    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate. <a href="chinh-sach.html">Tìm hiểu thêm</a>.</div>
+    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate. <a href="chinh-sach.html">Tìm hiểu thêm</a>. <span class="perf-note">Đọc nhanh · Tải nhanh · Không quảng cáo chen ngang.</span></div>
   </div>
 </footer>
+  <script src="js/motion.js" defer></script>
+  <script>window.addEventListener("load",function(){setTimeout(function(){if(!window.__motionOK){document.documentElement.classList.remove("js")}},1800)})</script>
 </body>
 </html>
