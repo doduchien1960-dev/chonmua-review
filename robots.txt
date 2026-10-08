@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chonmua-review.vercel.app/sitemap.xml
