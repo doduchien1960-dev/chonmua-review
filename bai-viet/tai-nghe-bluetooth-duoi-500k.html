@@ -18,7 +18,7 @@
 <meta property="article:section" content="Công nghệ">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8,60,400;8,60,600;8,60,700;8,60,900&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d6b45'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css">
 <script type="application/ld+json">
@@ -187,17 +187,30 @@
 <body>
 <div class="progress" id="progress"></div>
 <script>(function(){var b=document.getElementById('progress');function u(){var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight);b.style.transform='scaleX('+p+')';}addEventListener('scroll',u,{passive:true});u();})();</script>
-<header class="site-header">
+<div class="topbar">
   <div class="wrap">
-    <a class="brand" href="../index.html">Chọn Mua <em>Review</em><small>Đánh giá thật, mua sắm thông thái</small></a>
-    <nav class="main-nav" aria-label="Điều hướng chính">
-      <a href="../index.html">Trang chủ</a>
-      <a href="../danh-muc/gia-dung.html">Gia dụng</a>
-      <a href="../danh-muc/cong-nghe.html" class="active">Công nghệ</a>
-      <a href="../gioi-thieu.html">Giới thiệu</a>
-    </nav>
+    <span id="today-line">Bản tin mua sắm</span>
+    <span class="tagline">Blog đánh giá độc lập</span>
+    <span class="edition">Tiếng Việt</span>
   </div>
-</header>
+</div>
+
+<div class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="../index.html">Chọn Mua <em>Review</em></a>
+    <p class="tagline">Đánh giá thật &middot; So sánh thật &middot; Mua sắm thông thái</p>
+  </div>
+</div>
+
+<nav class="main-nav" aria-label="Điều hướng chính">
+  <div class="wrap">
+    <a href="../index.html">Trang chủ</a>
+    <a href="../danh-muc/gia-dung.html">Gia dụng</a>
+    <a href="../danh-muc/cong-nghe.html" class="active">Công nghệ</a>
+    <a href="../quiz-noi-chien.html">Trắc nghiệm</a>
+    <a href="../gioi-thieu.html">Giới thiệu</a>
+  </div>
+</nav>
 
     <aside class="quick-summary reveal">
       <h2>Tóm tắt nhanh (30 giây)</h2>
@@ -255,7 +268,7 @@
       </tbody>
     </table></div>
 
-      <div class="product reveal" style="--rd:0ms" id="sp1">
+      <div class="product reveal" id="sp1">
         <span class="rank best">Lựa chọn của mình</span>
         <h3>1. Xiaomi Redmi Buds 4 Lite</h3>
         <figure class="product-photo"><img src="../img/products/redmi-buds-4-lite.jpg" alt="Xiaomi Redmi Buds 4 Lite — ảnh sản phẩm thật" loading="lazy"><figcaption>Ảnh sản phẩm: hình ảnh của hãng / nhà bán lẻ</figcaption></figure>
@@ -270,7 +283,7 @@
         <a class="btn-cta" href="{{AFF_LINK_TAINGHE-REDMI-BUDS4-LITE}}" rel="nofollow sponsored noopener" target="_blank">Xem giá tốt nhất trên Shopee →</a>
       </div>
 
-      <div class="product reveal" style="--rd:70ms" id="sp2">
+      <div class="product reveal" id="sp2">
         <span class="rank">Top 2</span>
         <h3>2. Edifier X2s</h3>
         <figure class="product-photo"><img src="../img/products/edifier-x2s.jpg" alt="Edifier X2s — ảnh sản phẩm thật" loading="lazy"><figcaption>Ảnh sản phẩm: hình ảnh của hãng / nhà bán lẻ</figcaption></figure>
@@ -285,7 +298,7 @@
         <a class="btn-cta" href="{{AFF_LINK_TAINGHE-EDIFIER-X2S}}" rel="nofollow sponsored noopener" target="_blank">Xem giá tốt nhất trên Shopee →</a>
       </div>
 
-      <div class="product reveal" style="--rd:140ms" id="sp3">
+      <div class="product reveal" id="sp3">
         <span class="rank">Top 3</span>
         <h3>3. SoundPEATS TrueFree 2</h3>
         <figure class="product-photo"><img src="../img/products/soundpeats-truefree-2.jpg" alt="SoundPEATS TrueFree 2 — ảnh sản phẩm thật" loading="lazy"><figcaption>Ảnh sản phẩm: hình ảnh của hãng / nhà bán lẻ</figcaption></figure>
@@ -300,7 +313,7 @@
         <a class="btn-cta" href="{{AFF_LINK_TAINGHE-SOUNDPEATS-TRUEFREE2}}" rel="nofollow sponsored noopener" target="_blank">Xem giá tốt nhất trên Shopee →</a>
       </div>
 
-      <div class="product reveal" style="--rd:210ms" id="sp4">
+      <div class="product reveal" id="sp4">
         <span class="rank">Top 4</span>
         <h3>4. Baseus Bowie E9</h3>
         <figure class="product-photo"><img src="../img/products/baseus-bowie-e9.jpg" alt="Baseus Bowie E9 — ảnh sản phẩm thật" loading="lazy"><figcaption>Ảnh sản phẩm: hình ảnh của hãng / nhà bán lẻ</figcaption></figure>
@@ -315,7 +328,7 @@
         <a class="btn-cta" href="{{AFF_LINK_TAINGHE-BASEUS-BOWIE-E9}}" rel="nofollow sponsored noopener" target="_blank">Xem giá tốt nhất trên Shopee →</a>
       </div>
 
-      <div class="product reveal" style="--rd:280ms" id="sp5">
+      <div class="product reveal" id="sp5">
         <span class="rank">Top 5</span>
         <h3>5. Lenovo ThinkPlus XT88</h3>
         <figure class="product-photo"><img src="../img/products/lenovo-xt88.jpg" alt="Lenovo ThinkPlus XT88 — ảnh sản phẩm thật" loading="lazy"><figcaption>Ảnh sản phẩm: hình ảnh của hãng / nhà bán lẻ</figcaption></figure>
@@ -394,19 +407,36 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>
-      <h4>Chọn Mua Review</h4>
-      <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung cho người Việt.</p>
+    <div class="cols">
+      <div>
+        <p class="wordmark">Chọn Mua <em>Review</em></p>
+        <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung. Mỗi bài viết đều dựa trên tìm hiểu thực tế, so sánh nhiều sản phẩm rồi mới gợi ý &mdash; không PR trá hình.</p>
+      </div>
+      <div>
+        <h4>Chuyên mục</h4>
+        <ul>
+          <li><a href="../danh-muc/gia-dung.html">Đồ gia dụng</a></li>
+          <li><a href="../danh-muc/cong-nghe.html">Công nghệ giá tốt</a></li>
+          <li><a href="../quiz-noi-chien.html">Trắc nghiệm chọn nồi chiên</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Về chúng tôi</h4>
+        <ul>
+          <li><a href="../gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="../gioi-thieu.html#phuong-phap">Phương pháp đánh giá</a></li>
+          <li><a href="../chinh-sach.html">Chính sách &amp; affiliate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tòa soạn</h4>
+        <p>TP. Hồ Chí Minh, Việt Nam<br>Cập nhật mỗi tuần.</p>
+      </div>
     </div>
-    <div>
-      <h4>Chuyên mục</h4>
-      <p><a href="../danh-muc/gia-dung.html">Đồ gia dụng</a><br><a href="../danh-muc/cong-nghe.html">Công nghệ giá tốt</a></p>
+    <div class="bottom">
+      <span>&copy; 2026 Chọn Mua Review. Bảo lưu mọi quyền.</span>
+      <span class="perf-note">Đọc nhanh &middot; Tải nhanh &middot; Không quảng cáo chen ngang.</span>
     </div>
-    <div>
-      <h4>Thông tin</h4>
-      <p><a href="../gioi-thieu.html">Giới thiệu</a><br><a href="../chinh-sach.html">Chính sách &amp; affiliate disclosure</a></p>
-    </div>
-    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate. <a href="../chinh-sach.html">Tìm hiểu thêm</a>. <span class="perf-note">Đọc nhanh · Tải nhanh · Không quảng cáo chen ngang.</span></div>
   </div>
 </footer>
   <script src="../js/motion.js" defer></script>

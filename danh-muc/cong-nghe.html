@@ -15,22 +15,35 @@
 <meta property="og:locale" content="vi_VN">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8,60,400;8,60,600;8,60,700;8,60,900&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d6b45'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<header class="site-header">
+<div class="topbar">
   <div class="wrap">
-    <a class="brand" href="../index.html">Chọn Mua <em>Review</em><small>Đánh giá thật, mua sắm thông thái</small></a>
-    <nav class="main-nav" aria-label="Điều hướng chính">
-      <a href="../index.html">Trang chủ</a>
-      <a href="gia-dung.html">Gia dụng</a>
-      <a href="cong-nghe.html" class="active">Công nghệ</a>
-      <a href="../gioi-thieu.html">Giới thiệu</a>
-    </nav>
+    <span id="today-line">Bản tin mua sắm</span>
+    <span class="tagline">Blog đánh giá độc lập</span>
+    <span class="edition">Tiếng Việt</span>
   </div>
-</header>
+</div>
+
+<div class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="../index.html">Chọn Mua <em>Review</em></a>
+    <p class="tagline">Đánh giá thật &middot; So sánh thật &middot; Mua sắm thông thái</p>
+  </div>
+</div>
+
+<nav class="main-nav" aria-label="Điều hướng chính">
+  <div class="wrap">
+    <a href="../index.html">Trang chủ</a>
+    <a href="../danh-muc/gia-dung.html">Gia dụng</a>
+    <a href="../danh-muc/cong-nghe.html" class="active">Công nghệ</a>
+    <a href="../quiz-noi-chien.html">Trắc nghiệm</a>
+    <a href="../gioi-thieu.html">Giới thiệu</a>
+  </div>
+</nav>
 
 <main class="wrap">
   <nav class="breadcrumb" aria-label="breadcrumb"><a href="../index.html">Trang chủ</a> › Công nghệ</nav>
@@ -39,21 +52,23 @@
     <p class="lede">Tai nghe, sạc dự phòng, phụ kiện điện thoại, phân khúc vài trăm nghìn nhưng chọn đúng thì dùng sướng không kém đồ tiền triệu.</p>
   </div>
   <div class="card-grid">
-    <article class="card reveal" data-tilt style="--rd:0ms">
-      <span class="kicker">Công nghệ</span>
+    <article class="card reveal">
       <a class="thumb" href="../bai-viet/tai-nghe-bluetooth-duoi-500k.html"><img src="../img/tai-nghe.jpg" alt="Minh họa tai nghe Bluetooth" loading="lazy"></a>
+      <div class="card-body">
       <h3><a href="../bai-viet/tai-nghe-bluetooth-duoi-500k.html">Tai nghe Bluetooth dưới 500k: 5 lựa chọn đáng tiền</a></h3>
       <p>5 mẫu từ 280k đến 450k: mẫu nào nghe nhạc hay, mẫu nào chơi game ít trễ, mẫu nào pin trâu.</p>
       <span class="meta">03/10/2026 · 7 phút đọc</span>
-      <a class="read-more" href="../bai-viet/tai-nghe-bluetooth-duoi-500k.html">Đọc bài →</a>
+      <a class="read-more" href="../bai-viet/tai-nghe-bluetooth-duoi-500k.html">Đọc bài</a>
+      </div>
     </article>
-    <article class="card reveal" data-tilt style="--rd:80ms">
-      <span class="kicker">Công nghệ</span>
+    <article class="card reveal">
       <a class="thumb" href="../bai-viet/sac-du-phong.html"><img src="../img/sac-du-phong.jpg" alt="Minh họa sạc dự phòng" loading="lazy"></a>
+      <div class="card-body">
       <h3><a href="../bai-viet/sac-du-phong.html">Sạc dự phòng loại nào tốt? Top 5 pin trâu, sạc nhanh 2026</a></h3>
       <p>10000mAh hay 20000mAh? 5 cục sạc dự phòng đáng mua, có mẫu sạc được cả laptop.</p>
       <span class="meta">08/10/2026 · 7 phút đọc</span>
-      <a class="read-more" href="../bai-viet/sac-du-phong.html">Đọc bài →</a>
+      <a class="read-more" href="../bai-viet/sac-du-phong.html">Đọc bài</a>
+      </div>
     </article>
   </div>
   <p style="margin-top:28px;color:var(--muted)">Đang cập nhật thêm bài viết mới mỗi tuần. Quay lại sớm nhé.</p>
@@ -61,19 +76,36 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>
-      <h4>Chọn Mua Review</h4>
-      <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung cho người Việt.</p>
+    <div class="cols">
+      <div>
+        <p class="wordmark">Chọn Mua <em>Review</em></p>
+        <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung. Mỗi bài viết đều dựa trên tìm hiểu thực tế, so sánh nhiều sản phẩm rồi mới gợi ý &mdash; không PR trá hình.</p>
+      </div>
+      <div>
+        <h4>Chuyên mục</h4>
+        <ul>
+          <li><a href="../danh-muc/gia-dung.html">Đồ gia dụng</a></li>
+          <li><a href="../danh-muc/cong-nghe.html">Công nghệ giá tốt</a></li>
+          <li><a href="../quiz-noi-chien.html">Trắc nghiệm chọn nồi chiên</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Về chúng tôi</h4>
+        <ul>
+          <li><a href="../gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="../gioi-thieu.html#phuong-phap">Phương pháp đánh giá</a></li>
+          <li><a href="../chinh-sach.html">Chính sách &amp; affiliate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tòa soạn</h4>
+        <p>TP. Hồ Chí Minh, Việt Nam<br>Cập nhật mỗi tuần.</p>
+      </div>
     </div>
-    <div>
-      <h4>Chuyên mục</h4>
-      <p><a href="gia-dung.html">Đồ gia dụng</a><br><a href="cong-nghe.html">Công nghệ giá tốt</a></p>
+    <div class="bottom">
+      <span>&copy; 2026 Chọn Mua Review. Bảo lưu mọi quyền.</span>
+      <span class="perf-note">Đọc nhanh &middot; Tải nhanh &middot; Không quảng cáo chen ngang.</span>
     </div>
-    <div>
-      <h4>Thông tin</h4>
-      <p><a href="../gioi-thieu.html">Giới thiệu</a><br><a href="../chinh-sach.html">Chính sách &amp; affiliate disclosure</a></p>
-    </div>
-    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate. <a href="../chinh-sach.html">Tìm hiểu thêm</a>. <span class="perf-note">Đọc nhanh · Tải nhanh · Không quảng cáo chen ngang.</span></div>
   </div>
 </footer>
   <script src="../js/motion.js" defer></script>

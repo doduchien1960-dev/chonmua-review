@@ -16,146 +16,273 @@
 <meta property="og:locale" content="vi_VN">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8,60,400;8,60,600;8,60,700;8,60,900&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d6b45'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='bold' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"Chọn Mua Review","alternateName":"Chon Mua Review","url":"https://chonmua-review.vercel.app/","inLanguage":"vi","description":"Blog đánh giá đồ gia dụng và công nghệ tầm trung cho người Việt."}
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Bài viết mới nhất","itemListElement":[
+{"@type":"ListItem","position":1,"url":"https://chonmua-review.vercel.app/bai-viet/philips-vs-locknlock-noi-chien.html","name":"Nồi chiên không dầu Philips vs Lock&Lock: nên mua hãng nào 2026?"},
+{"@type":"ListItem","position":2,"url":"https://chonmua-review.vercel.app/bai-viet/noi-chien-khong-dau.html","name":"Nồi chiên không dầu loại nào tốt? Top 5 đáng mua nhất 2026"},
+{"@type":"ListItem","position":3,"url":"https://chonmua-review.vercel.app/bai-viet/may-xay-sinh-to.html","name":"Máy xay sinh tố loại nào tốt? Top 5 cho gia đình 2026"},
+{"@type":"ListItem","position":4,"url":"https://chonmua-review.vercel.app/bai-viet/sac-du-phong.html","name":"Sạc dự phòng loại nào tốt? Top 5 pin trâu, sạc nhanh 2026"},
+{"@type":"ListItem","position":5,"url":"https://chonmua-review.vercel.app/bai-viet/tai-nghe-bluetooth-duoi-500k.html","name":"Tai nghe Bluetooth dưới 500k: 5 lựa chọn đáng tiền"}]}
+</script>
 </head>
 <body>
-<header class="site-header">
+
+<div class="topbar">
   <div class="wrap">
-    <a class="brand" href="index.html">Chọn Mua <em>Review</em><small>Đánh giá thật, mua sắm thông thái</small></a>
-    <nav class="main-nav" aria-label="Điều hướng chính">
-      <a href="index.html" class="active">Trang chủ</a>
-      <a href="danh-muc/gia-dung.html">Gia dụng</a>
-      <a href="danh-muc/cong-nghe.html">Công nghệ</a>
-      <a href="gioi-thieu.html">Giới thiệu</a>
-    </nav>
+    <span id="today-line">Bản tin mua sắm</span>
+    <span class="tagline">Blog đánh giá độc lập</span>
+    <span class="edition">Tiếng Việt</span>
   </div>
-</header>
+</div>
+
+<div class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Chọn Mua <em>Review</em></a>
+    <p class="tagline">Đánh giá thật &middot; So sánh thật &middot; Mua sắm thông thái</p>
+  </div>
+</div>
+
+<nav class="main-nav" aria-label="Điều hướng chính">
+  <div class="wrap">
+    <a href="index.html" class="active">Trang chủ</a>
+    <a href="danh-muc/gia-dung.html">Gia dụng</a>
+    <a href="danh-muc/cong-nghe.html">Công nghệ</a>
+    <a href="quiz-noi-chien.html">Trắc nghiệm</a>
+    <a href="gioi-thieu.html">Giới thiệu</a>
+  </div>
+</nav>
 
 <main class="wrap">
-  <div class="hero-pin">
-  <section class="hero-cine breakout">
-    <div class="hero-cine-bg" data-plx="0.16" aria-hidden="true"><img src="img/hero.jpg" alt="" fetchpriority="high"></div>
-    <div class="hero-cine-shade" aria-hidden="true"></div>
-    <div class="hero-cine-inner wrap">
-      <p class="kicker reveal-hero" style="--d:60ms">Blog review độc lập</p>
-      <h1><span class="mask"><span class="reveal-hero" style="--d:180ms">Mua đồ gia dụng &amp; công nghệ:</span></span><span class="mask"><span class="reveal-hero" style="--d:320ms">đọc review thật trước khi xuống tiền</span></span></h1>
-      <p class="lede reveal-hero" style="--d:420ms">Mỗi bài là một lần mình tự tìm hiểu kỹ, so sánh 4-5 sản phẩm cùng phân khúc rồi mới dám gợi ý. Không PR trá hình, cái nào dở mình nói thẳng, cái nào đáng tiền mình chỉ rõ.</p>
-      <div class="hero-chips reveal-hero" style="--d:560ms">
-        <span><b data-count="5">0</b> bài review chi tiết</span><span><b data-count="24">0</b> sản phẩm so sánh</span><span><b data-count="100">0</b>% đánh giá độc lập</span>
-      </div>
-      <p class="disclosure reveal-hero" style="--d:660ms">Minh bạch: blog có gắn link affiliate Shopee. Nếu bạn mua qua link, mình nhận một khoản hoa hồng nhỏ mà giá bạn trả không đổi. Chi tiết xem <a href="chinh-sach.html">chính sách</a>.</p>
-    </div>
-  </section>
-  </div>
 
-  <div class="ticker breakout" aria-hidden="true">
-    <div class="ticker-track">
-      <div class="ticker-group"><span>Review thật</span><i>✦</i><span>Không nhận tiền xếp hạng</span><i>✦</i><span>So sánh thật từng thông số</span><i>✦</i><span>Dám chê sản phẩm dở</span><i>✦</i><span>Cập nhật mỗi tuần</span><i>✦</i></div>
-      <div class="ticker-group"><span>Review thật</span><i>✦</i><span>Không nhận tiền xếp hạng</span><i>✦</i><span>So sánh thật từng thông số</span><i>✦</i><span>Dám chê sản phẩm dở</span><i>✦</i><span>Cập nhật mỗi tuần</span><i>✦</i></div>
-    </div>
-  </div>
-
-  <section class="spotlight breakout reveal">
-    <div class="wrap spotlight-inner">
-      <p class="kicker">Deal nổi bật tuần này</p>
-      <div class="spotlight-grid">
-        <img src="img/products/locknlock-ejf357.jpg" alt="Nồi chiên không dầu Lock&Lock EJF357 — ảnh sản phẩm thật" loading="lazy">
-        <div>
-          <h2>Lock&Lock EJF357 — đáp án an toàn nhất cho đa số gia đình</h2>
-          <p>5.2L nướng vừa gà nguyên con, chống dính tốt, giá chỉ bằng một nửa Philips. Đây là mẫu mình gợi ý nhiều nhất mỗi khi được hỏi "nên mua nồi chiên nào".</p>
-          <p class="price">Giá tham khảo: ~2.100.000đ</p>
-          <a class="btn-cta" href="bai-viet/noi-chien-khong-dau.html#sp2">Đọc review chi tiết →</a>
-        </div>
+  <!-- Tin chính -->
+  <section class="lead">
+    <div class="lead-grid">
+      <div>
+        <span class="kicker">Đối đầu &middot; Bài nổi bật</span>
+        <h1><a href="bai-viet/philips-vs-locknlock-noi-chien.html">Nồi chiên không dầu Philips vs Lock&Lock: nên mua hãng nào 2026?</a></h1>
+        <p class="dek">Hai hãng được hỏi nhiều nhất mỗi khi mua nồi chiên. Chúng tôi so sánh trực diện 5 tiêu chí &mdash; giá, dung tích, độ đều nhiệt, độ bền và bảo hành &mdash; rồi chốt nên mua hãng nào theo ngân sách của bạn.</p>
+        <p class="byline"><b>Ban biên tập</b><span class="dot">&middot;</span>09/10/2026<span class="dot">&middot;</span>9 phút đọc</p>
       </div>
+      <figure>
+        <a href="bai-viet/philips-vs-locknlock-noi-chien.html"><img src="img/philips-vs-locknlock.jpg" alt="So sánh hai nồi chiên không dầu Philips và Lock&Lock" fetchpriority="high"></a>
+        <figcaption>Philips đắt gấp đôi Lock&amp;Lock &mdash; liệu có đáng? Ảnh minh họa.</figcaption>
+      </figure>
     </div>
   </section>
 
-  <h2 class="section-title reveal">Bài viết mới nhất</h2>
-  <div class="card-grid">
-    <article class="card reveal" data-tilt style="--rd:0ms" featured">
-      <a class="feat-img" href="bai-viet/philips-vs-locknlock-noi-chien.html"><img src="img/philips-vs-locknlock.jpg" alt="Minh họa so sánh hai nồi chiên không dầu Philips và Lock&Lock"></a>
-      <div class="feat-body">
-        <span class="kicker">Gia dụng · Bài nổi bật</span>
-        <h3><a href="bai-viet/philips-vs-locknlock-noi-chien.html">Nồi chiên không dầu Philips vs Lock&Lock: nên mua hãng nào 2026?</a></h3>
-        <p>Hai hãng được hỏi nhiều nhất khi mua nồi chiên. So sánh trực diện 5 tiêu chí: giá, dung tích, độ đều nhiệt, độ bền và bảo hành, rồi chốt nên mua hãng nào theo ngân sách của bạn.</p>
-        <span class="meta">09/10/2026 · 9 phút đọc</span>
-        <a class="read-more" href="bai-viet/philips-vs-locknlock-noi-chien.html">Đọc bài →</a>
-      </div>
-    </article>
-    <article class="card reveal" data-tilt style="--rd:80ms"">
-      <a class="thumb" href="bai-viet/noi-chien-khong-dau.html"><img src="img/noi-chien.jpg" alt="Minh họa nồi chiên không dầu đang nướng gà giòn" loading="lazy"></a>
+  <!-- Tin phụ -->
+  <section class="secondaries" aria-label="Các bài đáng chú ý">
+    <article class="story reveal">
+      <a class="thumb" href="bai-viet/noi-chien-khong-dau.html"><img src="img/noi-chien.jpg" alt="Nồi chiên không dầu đang nướng gà giòn" loading="lazy"></a>
       <span class="kicker">Gia dụng</span>
       <h3><a href="bai-viet/noi-chien-khong-dau.html">Nồi chiên không dầu loại nào tốt? Top 5 đáng mua nhất 2026</a></h3>
       <p>So sánh 5 mẫu bán chạy: Philips, Lock&amp;Lock, Sunhouse, Kalite, Magic Eco. Gia đình 4 người nên chọn dung tích bao nhiêu?</p>
-      <span class="meta">06/10/2026 · 8 phút đọc</span>
-      <a class="read-more" href="bai-viet/noi-chien-khong-dau.html">Đọc bài →</a>
     </article>
-    <article class="card reveal" data-tilt style="--rd:160ms"">
-      <a class="thumb" href="bai-viet/may-xay-sinh-to.html"><img src="img/may-xay.jpg" alt="Minh họa máy xay sinh tố đang xay sinh tố xoài" loading="lazy"></a>
+    <article class="story reveal">
+      <a class="thumb" href="bai-viet/may-xay-sinh-to.html"><img src="img/may-xay.jpg" alt="Máy xay sinh tố đang xay sinh tố xoài" loading="lazy"></a>
       <span class="kicker">Gia dụng</span>
       <h3><a href="bai-viet/may-xay-sinh-to.html">Máy xay sinh tố loại nào tốt? Top 5 cho gia đình 2026</a></h3>
-      <p>Philips, Panasonic, Sunhouse, Kangaroo, BlueStone: con nào xay đá được, con nào dễ vệ sinh, nhà 4 người nên mua loại nào?</p>
-      <span class="meta">08/10/2026 · 8 phút đọc</span>
-      <a class="read-more" href="bai-viet/may-xay-sinh-to.html">Đọc bài →</a>
+      <p>Philips, Panasonic, Sunhouse, Kangaroo, BlueStone: con nào xay đá được, con nào dễ vệ sinh?</p>
     </article>
-    <article class="card reveal" data-tilt style="--rd:240ms"">
-      <a class="thumb" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html"><img src="img/tai-nghe.jpg" alt="Minh họa tai nghe Bluetooth không dây" loading="lazy"></a>
+    <article class="story reveal">
+      <a class="thumb" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html"><img src="img/tai-nghe.jpg" alt="Tai nghe Bluetooth không dây" loading="lazy"></a>
       <span class="kicker">Công nghệ</span>
       <h3><a href="bai-viet/tai-nghe-bluetooth-duoi-500k.html">Tai nghe Bluetooth dưới 500k: 5 lựa chọn đáng tiền</a></h3>
-      <p>Tai nghe rẻ có nghe được không? Có, nếu biết chọn. 5 mẫu từ 280k đến 450k, mẫu nào nghe nhạc hay, mẫu nào chơi game ít trễ.</p>
-      <span class="meta">03/10/2026 · 7 phút đọc</span>
-      <a class="read-more" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html">Đọc bài →</a>
+      <p>Tai nghe rẻ có nghe được không? Có, nếu biết chọn. 5 mẫu từ 280k đến 450k.</p>
     </article>
-    <article class="card reveal" data-tilt style="--rd:320ms"">
-      <a class="thumb" href="bai-viet/sac-du-phong.html"><img src="img/sac-du-phong.jpg" alt="Minh họa sạc dự phòng đang sạc điện thoại" loading="lazy"></a>
-      <span class="kicker">Công nghệ</span>
-      <h3><a href="bai-viet/sac-du-phong.html">Sạc dự phòng loại nào tốt? Top 5 pin trâu, sạc nhanh 2026</a></h3>
-      <p>10000mAh hay 20000mAh? Sạc nhanh 22.5W có cần thiết? 5 cục sạc dự phòng đáng mua, có mẫu sạc được cả laptop.</p>
-      <span class="meta">08/10/2026 · 7 phút đọc</span>
-      <a class="read-more" href="bai-viet/sac-du-phong.html">Đọc bài →</a>
+  </section>
+
+  <!-- Mới nhất -->
+  <div class="rule-head">
+    <h2>Mới nhất</h2>
+    <a href="danh-muc/gia-dung.html">Tất cả bài viết</a>
+  </div>
+  <ol class="latest">
+    <li class="reveal">
+      <a class="thumb" href="bai-viet/philips-vs-locknlock-noi-chien.html"><img src="img/philips-vs-locknlock.jpg" alt="" loading="lazy"></a>
+      <div>
+        <span class="kicker">Đối đầu</span>
+        <h3><a href="bai-viet/philips-vs-locknlock-noi-chien.html">Nồi chiên không dầu Philips vs Lock&Lock: nên mua hãng nào 2026?</a></h3>
+        <p>So sánh trực diện 5 tiêu chí rồi chốt theo ngân sách của bạn.</p>
+        <time datetime="2026-10-09">09/10/2026</time><span class="dot">&middot;</span><span class="meta">9 phút đọc</span>
+      </div>
+    </li>
+    <li class="reveal">
+      <a class="thumb" href="bai-viet/sac-du-phong.html"><img src="img/sac-du-phong.jpg" alt="" loading="lazy"></a>
+      <div>
+        <span class="kicker">Công nghệ</span>
+        <h3><a href="bai-viet/sac-du-phong.html">Sạc dự phòng loại nào tốt? Top 5 pin trâu, sạc nhanh 2026</a></h3>
+        <p>10000mAh hay 20000mAh? Sạc nhanh 22.5W có cần thiết?</p>
+        <time datetime="2026-10-08">08/10/2026</time><span class="dot">&middot;</span><span class="meta">7 phút đọc</span>
+      </div>
+    </li>
+    <li class="reveal">
+      <a class="thumb" href="bai-viet/may-xay-sinh-to.html"><img src="img/may-xay.jpg" alt="" loading="lazy"></a>
+      <div>
+        <span class="kicker">Gia dụng</span>
+        <h3><a href="bai-viet/may-xay-sinh-to.html">Máy xay sinh tố loại nào tốt? Top 5 cho gia đình 2026</a></h3>
+        <p>Con nào xay đá được, con nào dễ vệ sinh, nhà 4 người nên mua loại nào?</p>
+        <time datetime="2026-10-08">08/10/2026</time><span class="dot">&middot;</span><span class="meta">8 phút đọc</span>
+      </div>
+    </li>
+    <li class="reveal">
+      <a class="thumb" href="bai-viet/noi-chien-khong-dau.html"><img src="img/noi-chien.jpg" alt="" loading="lazy"></a>
+      <div>
+        <span class="kicker">Gia dụng</span>
+        <h3><a href="bai-viet/noi-chien-khong-dau.html">Nồi chiên không dầu loại nào tốt? Top 5 đáng mua nhất 2026</a></h3>
+        <p>So sánh 5 mẫu bán chạy nhất, gợi ý dung tích theo số người trong nhà.</p>
+        <time datetime="2026-10-06">06/10/2026</time><span class="dot">&middot;</span><span class="meta">8 phút đọc</span>
+      </div>
+    </li>
+    <li class="reveal">
+      <a class="thumb" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html"><img src="img/tai-nghe.jpg" alt="" loading="lazy"></a>
+      <div>
+        <span class="kicker">Công nghệ</span>
+        <h3><a href="bai-viet/tai-nghe-bluetooth-duoi-500k.html">Tai nghe Bluetooth dưới 500k: 5 lựa chọn đáng tiền</a></h3>
+        <p>Mẫu nào nghe nhạc hay, mẫu nào chơi game ít trễ.</p>
+        <time datetime="2026-10-03">03/10/2026</time><span class="dot">&middot;</span><span class="meta">7 phút đọc</span>
+      </div>
+    </li>
+  </ol>
+
+  <!-- Lựa chọn của biên tập viên -->
+  <section class="editors-pick reveal" aria-label="Lựa chọn của biên tập viên">
+    <span class="ep-label">Lựa chọn của biên tập viên</span>
+    <div class="ep-grid">
+      <img src="img/products/locknlock-ejf357.jpg" alt="Nồi chiên không dầu Lock&Lock EJF357" loading="lazy">
+      <div>
+        <h3>Lock&Lock EJF357 &mdash; đáp án an toàn nhất cho đa số gia đình</h3>
+        <p>5.2L nướng vừa gà nguyên con, chống dính tốt, giá chỉ bằng một nửa Philips. Đây là mẫu chúng tôi gợi ý nhiều nhất mỗi khi được hỏi &ldquo;nên mua nồi chiên nào&rdquo;.</p>
+        <p class="price">Giá tham khảo: ~2.100.000đ</p>
+        <p style="margin-top:14px"><a class="btn" href="bai-viet/noi-chien-khong-dau.html#sp2">Đọc review chi tiết</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chuyên mục: Gia dụng -->
+  <div class="rule-head">
+    <h2>Gia dụng</h2>
+    <a href="danh-muc/gia-dung.html">Xem chuyên mục</a>
+  </div>
+  <div class="card-grid">
+    <article class="card reveal">
+      <a class="thumb" href="bai-viet/noi-chien-khong-dau.html"><img src="img/noi-chien.jpg" alt="Nồi chiên không dầu đang nướng gà giòn" loading="lazy"></a>
+      <div class="card-body">
+        <span class="kicker">Top 5</span>
+        <h3><a href="bai-viet/noi-chien-khong-dau.html">Nồi chiên không dầu loại nào tốt? Top 5 đáng mua nhất 2026</a></h3>
+        <p>So sánh 5 mẫu bán chạy: Philips, Lock&amp;Lock, Sunhouse, Kalite, Magic Eco.</p>
+        <a class="read-more" href="bai-viet/noi-chien-khong-dau.html">Đọc bài</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <a class="thumb" href="bai-viet/may-xay-sinh-to.html"><img src="img/may-xay.jpg" alt="Máy xay sinh tố đang xay sinh tố xoài" loading="lazy"></a>
+      <div class="card-body">
+        <span class="kicker">Top 5</span>
+        <h3><a href="bai-viet/may-xay-sinh-to.html">Máy xay sinh tố loại nào tốt? Top 5 cho gia đình 2026</a></h3>
+        <p>Philips, Panasonic, Sunhouse, Kangaroo, BlueStone &mdash; con nào xay đá được?</p>
+        <a class="read-more" href="bai-viet/may-xay-sinh-to.html">Đọc bài</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <a class="thumb" href="bai-viet/philips-vs-locknlock-noi-chien.html"><img src="img/philips-vs-locknlock.jpg" alt="So sánh nồi chiên Philips và Lock&Lock" loading="lazy"></a>
+      <div class="card-body">
+        <span class="kicker">Đối đầu</span>
+        <h3><a href="bai-viet/philips-vs-locknlock-noi-chien.html">Philips vs Lock&Lock: nên mua hãng nồi chiên nào?</a></h3>
+        <p>Đắt gấp đôi có đáng không? So sánh 5 tiêu chí rồi chốt theo ngân sách.</p>
+        <a class="read-more" href="bai-viet/philips-vs-locknlock-noi-chien.html">Đọc bài</a>
+      </div>
     </article>
   </div>
 
-  <h2 class="section-title reveal">Chuyên mục</h2>
+  <!-- Chuyên mục: Công nghệ -->
+  <div class="rule-head">
+    <h2>Công nghệ</h2>
+    <a href="danh-muc/cong-nghe.html">Xem chuyên mục</a>
+  </div>
   <div class="card-grid">
-    <article class="card reveal" data-tilt style="--rd:400ms"">
-      <span class="kicker">Chuyên mục</span>
-      <h3><a href="danh-muc/gia-dung.html">Đồ gia dụng</a></h3>
-      <p>Nồi chiên không dầu, máy xay, quạt, máy lọc không khí..., những món đáng tiền cho căn bếp và ngôi nhà.</p>
-      <a class="read-more" href="danh-muc/gia-dung.html">Xem chuyên mục →</a>
+    <article class="card reveal">
+      <a class="thumb" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html"><img src="img/tai-nghe.jpg" alt="Tai nghe Bluetooth không dây" loading="lazy"></a>
+      <div class="card-body">
+        <span class="kicker">Dưới 500k</span>
+        <h3><a href="bai-viet/tai-nghe-bluetooth-duoi-500k.html">Tai nghe Bluetooth dưới 500k: 5 lựa chọn đáng tiền</a></h3>
+        <p>5 mẫu từ 280k đến 450k: mẫu nào nghe nhạc hay, mẫu nào chơi game ít trễ.</p>
+        <a class="read-more" href="bai-viet/tai-nghe-bluetooth-duoi-500k.html">Đọc bài</a>
+      </div>
     </article>
-    <article class="card reveal" data-tilt style="--rd:480ms"">
-      <span class="kicker">Chuyên mục</span>
-      <h3><a href="danh-muc/cong-nghe.html">Công nghệ giá tốt</a></h3>
-      <p>Tai nghe, sạc dự phòng, phụ kiện điện thoại, ngon, bổ, rẻ, không cần vung tiền triệu.</p>
-      <a class="read-more" href="danh-muc/cong-nghe.html">Xem chuyên mục →</a>
+    <article class="card reveal">
+      <a class="thumb" href="bai-viet/sac-du-phong.html"><img src="img/sac-du-phong.jpg" alt="Sạc dự phòng đang sạc điện thoại" loading="lazy"></a>
+      <div class="card-body">
+        <span class="kicker">Top 5</span>
+        <h3><a href="bai-viet/sac-du-phong.html">Sạc dự phòng loại nào tốt? Top 5 pin trâu, sạc nhanh 2026</a></h3>
+        <p>10000mAh hay 20000mAh? Có mẫu sạc được cả laptop.</p>
+        <a class="read-more" href="bai-viet/sac-du-phong.html">Đọc bài</a>
+      </div>
+    </article>
+    <article class="card reveal">
+      <div class="card-body" style="justify-content:center">
+        <span class="kicker">Sắp có</span>
+        <h3>Thêm bài đánh giá công nghệ mỗi tuần</h3>
+        <p>Phụ kiện điện thoại, đồ gia dụng thông minh &mdash; chúng tôi đang thử nghiệm thêm nhiều sản phẩm.</p>
+        <a class="read-more" href="danh-muc/cong-nghe.html">Xem chuyên mục</a>
+      </div>
     </article>
   </div>
+
+  <!-- Trắc nghiệm -->
+  <section class="quiz-banner reveal" aria-label="Trắc nghiệm chọn nồi chiên">
+    <div>
+      <h3>30 giây: bạn hợp nồi chiên nào?</h3>
+      <p>Trả lời 4 câu hỏi, chúng tôi gợi ý mẫu phù hợp với gia đình bạn.</p>
+    </div>
+    <a class="btn solid" href="quiz-noi-chien.html">Làm trắc nghiệm</a>
+  </section>
+
+  <p class="meta" style="margin:10px 0 4px">Minh bạch: một số link trên trang là link affiliate Shopee. Nếu bạn mua qua link, chúng tôi nhận một khoản hoa hồng nhỏ mà giá bạn trả không đổi. <a href="chinh-sach.html" style="text-decoration:underline">Chính sách</a>.</p>
+
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <div>
-      <h4>Chọn Mua Review</h4>
-      <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung. Mỗi bài viết đều dựa trên tìm hiểu thực tế, so sánh nhiều sản phẩm rồi mới gợi ý.</p>
+    <div class="cols">
+      <div>
+        <p class="wordmark">Chọn Mua <em>Review</em></p>
+        <p>Blog đánh giá đồ gia dụng và công nghệ tầm trung. Mỗi bài viết đều dựa trên tìm hiểu thực tế, so sánh nhiều sản phẩm rồi mới gợi ý &mdash; không PR trá hình.</p>
+      </div>
+      <div>
+        <h4>Chuyên mục</h4>
+        <ul>
+          <li><a href="danh-muc/gia-dung.html">Đồ gia dụng</a></li>
+          <li><a href="danh-muc/cong-nghe.html">Công nghệ giá tốt</a></li>
+          <li><a href="quiz-noi-chien.html">Trắc nghiệm chọn nồi chiên</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Về chúng tôi</h4>
+        <ul>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="gioi-thieu.html#phuong-phap">Phương pháp đánh giá</a></li>
+          <li><a href="chinh-sach.html">Chính sách &amp; affiliate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tòa soạn</h4>
+        <p>TP. Hồ Chí Minh, Việt Nam<br>Cập nhật mỗi tuần.</p>
+      </div>
     </div>
-    <div>
-      <h4>Chuyên mục</h4>
-      <p><a href="danh-muc/gia-dung.html">Đồ gia dụng</a><br><a href="danh-muc/cong-nghe.html">Công nghệ giá tốt</a></p>
+    <div class="bottom">
+      <span>&copy; 2026 Chọn Mua Review. Bảo lưu mọi quyền.</span>
+      <span class="perf-note">Đọc nhanh &middot; Tải nhanh &middot; Không quảng cáo chen ngang.</span>
     </div>
-    <div>
-      <h4>Thông tin</h4>
-      <p><a href="gioi-thieu.html">Giới thiệu</a><br><a href="chinh-sach.html">Chính sách &amp; affiliate disclosure</a></p>
-    </div>
-    <div class="bottom">© 2026 Chọn Mua Review. Một số link trên trang là link affiliate, bạn không mất thêm phí khi mua qua link. <a href="chinh-sach.html">Tìm hiểu thêm</a>. <span class="perf-note">Đọc nhanh · Tải nhanh · Không quảng cáo chen ngang.</span></div>
   </div>
 </footer>
-  <script src="js/motion.js" defer></script>
-  <script>window.addEventListener("load",function(){setTimeout(function(){if(!window.__motionOK){document.documentElement.classList.remove("js")}},1800)})</script>
+
+<script src="js/motion.js" defer></script>
+<script>window.addEventListener("load",function(){setTimeout(function(){if(!window.__motionOK){document.documentElement.classList.remove("js")}},1800)})</script>
 </body>
 </html>
