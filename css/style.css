@@ -250,6 +250,40 @@ main{padding:40px 0 64px}
   .spec-table th,.spec-table td{padding:8px 10px}
 }
 
+
+/* ---------- Chặng 1: trust, why, score, term, quiz ---------- */
+.trust-box{border:1px solid #c9bfa8;background:#fffdf6;border-radius:var(--radius);
+  padding:16px 20px;font-size:.9rem;color:var(--muted);margin:0 0 26px;line-height:1.75}
+.trust-box b{color:var(--ink)}
+.why-box{background:var(--brand-tint);border-left:4px solid var(--brand);
+  border-radius:0 var(--radius-s) var(--radius-s) 0;padding:14px 18px;
+  font-size:.95rem;margin:0 0 24px;line-height:1.75}
+.why-box b{color:var(--brand-ink)}
+.score-title{font-size:1.15rem;font-weight:800;margin:30px 0 4px}
+.bar{display:inline-block;height:8px;background:var(--brand);border-radius:4px;
+  margin-right:9px;vertical-align:middle;min-width:24px}
+.score-note{font-size:.85rem;color:var(--muted);margin:8px 0 26px}
+.term-box{background:#f4f1e8;border-radius:var(--radius-s);padding:13px 17px;
+  font-size:.9rem;margin:16px 0;color:var(--muted);line-height:1.75}
+.term-box b{color:var(--ink)}
+.quiz-teaser{background:var(--brand);color:#fff;border-radius:var(--radius);
+  padding:18px 22px;margin:22px 0;font-size:.98rem;line-height:1.7}
+.quiz-teaser b{color:#fff}
+.quiz-teaser a{color:#fff;font-weight:800;text-decoration:underline}
+/* trang quiz */
+.quiz-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:28px;margin:24px 0}
+.quiz-progress{height:8px;background:var(--line);border-radius:4px;margin-bottom:20px;overflow:hidden}
+.quiz-progress span{display:block;height:100%;background:var(--brand);border-radius:4px;transition:width .3s}
+.quiz-q{font-size:1.2rem;font-weight:800;margin:0 0 16px}
+.quiz-opts{display:grid;gap:10px}
+.quiz-opt{background:#fbf9f4;border:1px solid var(--line);border-radius:var(--radius-s);
+  padding:14px 18px;font-size:1rem;cursor:pointer;text-align:left;font-family:inherit;transition:.15s}
+.quiz-opt:hover{border-color:var(--brand);background:var(--brand-tint)}
+.quiz-result{text-align:left}
+.quiz-result .pick-tag{margin-bottom:10px}
+@media (max-width:700px){.quiz-card{padding:20px}}
+
 /* ---------- Responsive ---------- */
 @media (max-width:700px){
   body{font-size:16px}
