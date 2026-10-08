@@ -481,6 +481,12 @@ body{overflow-x:clip}
   .stage .stage-name{max-width:52vw}
 }
 
+
+/* 3D hero (Three.js) — desktop có WebGL */
+#webgl-hero{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}
+.hero-cine.webgl-on .hero-cine-bg{visibility:hidden}
+.hero-cine.webgl-on .hero-cine-bg img{animation:none}
+
 /* ---------- Responsive ---------- */
 
 
