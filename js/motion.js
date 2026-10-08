@@ -69,10 +69,26 @@
 
   /* Hero parallax theo chuột (làm mượt, tự dừng khi đứng yên) */
   var mTX = 0, mTY = 0, mCX = 0, mCY = 0, mouseRaf = null;
+  var heroPin = document.querySelector(".hero-pin");
+  var heroInner = document.querySelector(".hero-cine-inner");
+  function heroProgress() {
+    if (!heroPin || reduced) return 0;
+    var total = heroPin.offsetHeight - window.innerHeight;
+    if (total <= 0) return 0;
+    var y = -heroPin.getBoundingClientRect().top;
+    return Math.min(Math.max(y / total, 0), 1);
+  }
   function applyHero() {
     if (!heroBg || reduced) return;
+    var p = heroProgress();
     var t = plxTransform(heroBg);
-    heroBg.style.transform = t + " translate3d(" + mCX.toFixed(1) + "px," + mCY.toFixed(1) + "px,0)";
+    var sc = (1.16 - 0.16 * p).toFixed(3);
+    heroBg.style.transform = "scale(" + sc + ") " + t +
+      " translate3d(" + mCX.toFixed(1) + "px," + mCY.toFixed(1) + "px,0)";
+    if (heroInner) {
+      heroInner.style.transform = "translate3d(0," + (p * 150).toFixed(1) + "px,0)";
+      heroInner.style.opacity = (1 - p * 0.9).toFixed(3);
+    }
   }
   function mouseStep() {
     mouseRaf = null;
@@ -148,6 +164,113 @@
         card.style.transform = "";
       });
     });
+  }
+
+  /* Phase A2: sticky product stage — panel theo dõi sản phẩm đang đọc */
+  (function () {
+    var prods = Array.prototype.slice.call(document.querySelectorAll(".product"));
+    if (!prods.length) return;
+    var info = prods.map(function (p) {
+      var rank = ((p.querySelector(".rank") || {}).textContent || "").trim();
+      var h3 = ((p.querySelector("h3") || {}).textContent || "").replace(/^\d+\.\s*/, "").trim();
+      return { rank: rank, name: h3 };
+    });
+    var stage = document.createElement("div");
+    stage.className = "stage";
+    stage.setAttribute("aria-hidden", "true");
+    stage.innerHTML = '<span class="stage-rank"></span><span class="stage-name"></span><span class="stage-count"></span>';
+    document.body.appendChild(stage);
+    var rEl = stage.querySelector(".stage-rank"),
+        nEl = stage.querySelector(".stage-name"),
+        cEl = stage.querySelector(".stage-count");
+    var cur = -1;
+    function setStage(i) {
+      if (i === cur) return;
+      cur = i;
+      if (i < 0) { stage.classList.remove("on"); return; }
+      rEl.textContent = info[i].rank;
+      nEl.textContent = info[i].name;
+      cEl.textContent = (i + 1) + "/" + prods.length;
+      stage.classList.add("on");
+    }
+    if ("IntersectionObserver" in window && !reduced) {
+      var io2 = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) setStage(prods.indexOf(e.target));
+        });
+      }, { rootMargin: "-38% 0px -52% 0px", threshold: 0 });
+      prods.forEach(function (p) { io2.observe(p); });
+    } else if (reduced) {
+      /* reduced motion: không hiện panel */
+    }
+  })();
+
+  /* Phase B1: magnetic CTA — nút hút nhẹ về chuột (desktop) */
+  if (!reduced && fineHover) {
+    document.querySelectorAll(".btn-cta").forEach(function (btn) {
+      var raf = null, tx = 0, ty = 0;
+      btn.addEventListener("pointermove", function (ev) {
+        var r = btn.getBoundingClientRect();
+        var dx = ev.clientX - (r.left + r.width / 2);
+        var dy = ev.clientY - (r.top + r.height / 2);
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist > 70) { tx = 0; ty = 0; }
+        else { tx = (dx / 70 * 9).toFixed(1); ty = (dy / 70 * 9).toFixed(1); }
+        if (!raf) raf = requestAnimationFrame(function () {
+          raf = null;
+          btn.style.transform = (tx == 0 && ty == 0) ? "" : "translate(" + tx + "px," + ty + "px)";
+        });
+      });
+      btn.addEventListener("pointerleave", function () {
+        if (raf) { cancelAnimationFrame(raf); raf = null; }
+        tx = 0; ty = 0;
+        btn.style.transform = "";
+      });
+    });
+    /* Phase B2: aura mạnh hơn trong section tối */
+    var auraEl = document.querySelector(".cursor-aura");
+    if (auraEl) {
+      document.querySelectorAll(".spotlight,.verdict").forEach(function (sec) {
+        sec.addEventListener("pointerenter", function () { auraEl.style.opacity = "1"; });
+      });
+    }
+  }
+
+  /* Phase C1: smooth scroll quán tính (desktop, có fallback native) */
+  if (!reduced && fineHover) {
+    var sc = { target: window.scrollY, current: window.scrollY, raf: null };
+    function sStep() {
+      sc.raf = null;
+      var diff = sc.target - sc.current;
+      if (Math.abs(diff) < 0.5) {
+        sc.current = sc.target;
+        window.scrollTo(0, Math.round(sc.current));
+        return;
+      }
+      sc.current += diff * 0.14;
+      window.scrollTo(0, Math.round(sc.current));
+      queuePlx();
+      sc.raf = requestAnimationFrame(sStep);
+    }
+    function sStop() {
+      if (sc.raf) { cancelAnimationFrame(sc.raf); sc.raf = null; }
+      sc.target = window.scrollY; sc.current = window.scrollY;
+    }
+    window.addEventListener("wheel", function (ev) {
+      if (ev.ctrlKey || ev.metaKey) return;
+      var t = ev.target;
+      if (t && t.closest && t.closest(".table-wrap")) return;
+      var d = ev.deltaY * (ev.deltaMode === 1 ? 16 : ev.deltaMode === 2 ? window.innerHeight : 1);
+      if (!sc.raf) { sc.target = window.scrollY; sc.current = window.scrollY; }
+      sc.target += d;
+      ev.preventDefault();
+      if (!sc.raf) sc.raf = requestAnimationFrame(sStep);
+    }, { passive: false });
+    window.addEventListener("keydown", sStop);
+    window.addEventListener("touchstart", sStop, { passive: true });
+    window.addEventListener("scroll", function () {
+      if (!sc.raf) { sc.target = window.scrollY; sc.current = window.scrollY; }
+    }, { passive: true });
   }
 
   window.__motionOK = true;
