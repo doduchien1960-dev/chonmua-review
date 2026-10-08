@@ -395,6 +395,36 @@ body{overflow-x:clip}
   .spotlight h2{font-size:1.4rem}
 }
 
+
+/* ================= V4b: tăng đô hiệu ứng ================= */
+/* Quầng sáng đi theo chuột (desktop) */
+.cursor-aura{position:fixed;top:0;left:0;width:560px;height:560px;margin:-280px 0 0 -280px;
+  border-radius:50%;pointer-events:none;z-index:40;opacity:0;transition:opacity .5s;
+  background:radial-gradient(circle,rgba(13,107,69,.12),rgba(13,107,69,.04) 45%,transparent 65%)}
+/* Chữ hiện kiểu màn kéo điện ảnh */
+.mask{display:block;overflow:hidden;padding-bottom:.09em;margin-bottom:-.09em}
+.mask>.reveal-hero{display:block;opacity:1;transform:translateY(112%);
+  animation:maskIn .95s var(--ease-cine) forwards;animation-delay:var(--d,0ms)}
+@keyframes maskIn{to{transform:none}}
+/* Dải ticker chạy */
+.ticker{background:var(--brand);color:#fff;overflow:hidden;margin-bottom:46px}
+.ticker-track{display:flex;width:max-content;animation:tick 26s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-group{display:flex;align-items:center;flex-shrink:0}
+.ticker-group span{margin:0 20px;font-weight:700;font-size:.88rem;letter-spacing:.08em;
+  text-transform:uppercase;white-space:nowrap;padding:13px 0}
+.ticker-group i{font-style:normal;opacity:.55}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* Số liệu đếm lên */
+.hero-chips b{font-weight:800;font-variant-numeric:tabular-nums}
+/* Card: ảnh zoom khi hover */
+.card .thumb img,.card .feat-img img{transition:transform .55s var(--ease-out)}
+.card:hover .thumb img,.card:hover .feat-img img{transform:scale(1.055)}
+@media (prefers-reduced-motion:reduce){
+  .ticker-track{animation:none}
+  .mask>.reveal-hero{opacity:1;transform:none;animation:none}
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width:700px){
