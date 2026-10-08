@@ -43,4 +43,19 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_SACDUPHONG-UGREEN-20000-PD}}` | Ugreen 20000mAh PD 22.5W |
 | `{{AFF_LINK_SACDUPHONG-SAMSUNG-10000-25W}}` | Samsung Battery Pack 10000mAh 25W |
 
-Tổng: **15 placeholder** link affiliate.
+### Bài so sánh Philips vs Lock&Lock
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_NOI-CHIEN-PHILIPS-HD9280}}` | Philips HD9280/90 — 6.2L |
+| `{{AFF_LINK_NOI-CHIEN-LOCKNLOCK-EJF376}}` | Lock&Lock EJF376BLK — 5L |
+
+### Bài máy xay sinh tố
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_MAYXAY-PHILIPS-HR2223}}` | Philips HR2223 |
+| `{{AFF_LINK_MAYXAY-PANASONIC-MXMG53}}` | Panasonic MX-MG53 |
+| `{{AFF_LINK_MAYXAY-SUNHOUSE-SHD5112}}` | Sunhouse SHD5112 |
+| `{{AFF_LINK_MAYXAY-KANGAROO-KG4B3}}` | Kangaroo KG4B3 |
+| `{{AFF_LINK_MAYXAY-BLUESTONE-BLB5335}}` | BlueStone BLB-5335 |
+
+Tổng: **22 placeholder** link affiliate.
