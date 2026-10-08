@@ -81,12 +81,10 @@
   function applyHero() {
     if (!heroBg || reduced) return;
     var p = heroProgress();
-    if (!window.__webglHero) {
-      var t = plxTransform(heroBg);
-      var sc = (1.16 - 0.16 * p).toFixed(3);
-      heroBg.style.transform = "scale(" + sc + ") " + t +
-        " translate3d(" + mCX.toFixed(1) + "px," + mCY.toFixed(1) + "px,0)";
-    }
+    var t = plxTransform(heroBg);
+    var sc = (1.16 - 0.16 * p).toFixed(3);
+    heroBg.style.transform = "scale(" + sc + ") " + t +
+      " translate3d(" + mCX.toFixed(1) + "px," + mCY.toFixed(1) + "px,0)";
     if (heroInner) {
       heroInner.style.transform = "translate3d(0," + (p * 150).toFixed(1) + "px,0)";
       heroInner.style.opacity = (1 - p * 0.9).toFixed(3);

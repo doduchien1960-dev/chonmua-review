@@ -12,10 +12,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | kalite-q10 | https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/2022_8_27_637972175723968118_HASP-NOI-CHIEN-KALITE-Q10-4.jpg (CDN FPT Shop) |
 | sunhouse-shd5112-noichien | https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_34202/noi-chien-khong-dau-sunhouse-shd4030-65-lit-multi-1.png (CDN Điện máy Chợ Lớn) |
 | magic-eco-ac110 | https://salt.tikicdn.com/cache/750x750/ts/product/01/f9/2d/f9a3c3336cfa558b234db7a2ba26a377.jpg.webp (CDN Tiki) |
-| philips-hd9280-90 | https://images.philips.com/is/image/PhilipsConsumer/HD9280_90-IMS-nl_NL?wid=800 (website chính hãng Philips) |
+| philips-hd9280-90 | https://images.philips.com/is/image/PhilipsConsumer/HD9280_90-IMS-nl_NL?wid=1600 (website chính hãng Philips, nâng từ wid=800 lên 1600 ngày 08/10) |
 | redmi-buds-4-lite | https://i02.appmifile.com/221_item_tw/02/07/2024/aa6b779755f4f3d647ad604e650a91ff.png (mi.com chính hãng) |
 | edifier-x2s | https://edifier.co.th/cdn/shop/files/X2S-White_dba4b0e1-4c0d-4915-8dee-41ad67a1a9ff.jpg (shop chính thức Edifier) |
-| soundpeats-truefree-2 | https://m.media-amazon.com/images/I/71YsSe6aQtL.SS700.jpg (CDN Amazon) |
+| soundpeats-truefree-2 | https://m.media-amazon.com/images/I/71YsSe6aQtL._SL1500_.jpg (CDN Amazon, nâng từ SS700 lên SL1500 ngày 08/10) |
 | baseus-bowie-e9 | https://dirigible.com.ng/wp-content/uploads/2023/03/NGTW120001_black-1.jpg (nhà bán lẻ) |
 | lenovo-xt88 | https://s.alicdn.com/@sc04/kf/Hcdb8c25dbbcc45b1b4996897d9d9f49a1.png_720x720q50.jpg (CDN Alibaba) |
 | xiaomi-pb-20000-18w | https://product-hub-prd.madeiramadeira.com.br/921077997/images/cbe0cc1b-69f7-4ab5-b3cd-718b4dae1e03a5e5d084standardresolution.jpg (nhà bán lẻ) |
@@ -45,3 +45,8 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 
 - Mỗi bài viết: thay `<img ... src="../img/<slug-cu>.jpg">` đầu bài bằng ảnh lifestyle mới đã ghi đè (cùng tên file nên **không cần sửa HTML** cho 6 ảnh đầu bài).
 - Ảnh sản phẩm: thêm `<img src="../img/products/<slug>.jpg" alt="..." loading="lazy">` vào đầu mỗi `.product` box trong 5 file `bai-viet/*.html` (hiện tại các box chưa có ảnh sản phẩm).
+
+## Đợt nâng độ nét 08/10 (theo yêu cầu Đỗ)
+- tai-nghe.jpg, sac-du-phong.jpg, may-xay.jpg: Pexels w=1600 (trước 1400).
+- noi-chien.jpg: Wikimedia 1280px -> nén còn 1100px (trước 888px).
+- hero.jpg giữ 1200px (bản CBS, bố cục đẹp nhất trong các nguồn tìm được; trên điện thoại đã nét).
