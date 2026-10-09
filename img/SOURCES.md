@@ -29,6 +29,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | kangaroo-kg4b3 | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
 | bluestone-blb5335 | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
 | locknlock-ejf376blk | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
+| olivo-sf16-pro | https://meta.vn/Data/Image/2023/12/11/noi-chien-hoi-nuoc-olivo-sf16-pro-1.jpg (CDN META.vn) |
+| philips-na543 | https://images.philips.com/is/image/philipsconsumer/vrs_71e53184_ead3_452c_92ffa0dca1443e65?wid=1600 (website chính hãng Philips) |
+| tefal-fw2018 | https://media.binglee.com.au/cdn-cgi/image/fit=scale-down,f=auto,w=1200/0/4/9/f/049fed0cd5be3ca141d82d833cce6f9c820e7975_Tefal_FW2018_hero.jpg (CDN Bing Lee) |
+| locknlock-ejf881 | https://bizweb.dktcdn.net/thumb/large/100/523/141/products/noi-chien-khong-dau-ket-hop-chuc-nang-hap-locklock-ejf881-2-900x900.png?v=1739499352773 (locknlockvietnam.net) |
 
 ## Ảnh lifestyle/đầu bài (`img/`)
 
@@ -40,6 +44,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | sac-du-phong.jpg | https://images.pexels.com/photos/37475662/pexels-photo-37475662/free-photo-of-smartphone-charging-with-power-bank-on-wooden-surface.jpeg (Pexels) |
 | may-xay.jpg | https://images.pexels.com/photos/8845109/pexels-photo-8845109.jpeg (Pexels) |
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
+| noi-chien-hoi-nuoc.jpg | https://www.sunbeam.com.au/media/magefan_blog/Sunbeam_SteamFry_Cooked_Whole_Chicken_1200x950.jpg (blog Sunbeam, ảnh gà nướng nguyên con trong khay nồi chiên hơi nước) |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

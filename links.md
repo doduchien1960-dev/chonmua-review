@@ -58,4 +58,12 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_MAYXAY-KANGAROO-KG4B3}}` | Kangaroo KG4B3 |
 | `{{AFF_LINK_MAYXAY-BLUESTONE-BLB5335}}` | BlueStone BLB-5335 |
 
-Tổng: **22 placeholder** link affiliate.
+### Bài nồi chiên hơi nước
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_NOI-CHIEN-OLIVO-SF16}}` | Olivo SF16 Pro — 16L |
+| `{{AFF_LINK_NOI-CHIEN-PHILIPS-NA543}}` | Philips NA543/00 — 7.2L |
+| `{{AFF_LINK_NOI-CHIEN-LOCKNLOCK-EJF881}}` | Lock&Lock EJF881 — 7L |
+| `{{AFF_LINK_NOI-CHIEN-TEFAL-FW2018}}` | Tefal FW201815 — 6.5L |
+
+Tổng: **26 placeholder** link affiliate.
