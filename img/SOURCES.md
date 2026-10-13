@@ -29,6 +29,11 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | kangaroo-kg4b3 | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
 | bluestone-blb5335 | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
 | locknlock-ejf376blk | CDN nhà bán lẻ/chính hãng (đã kiểm tra trực quan: ảnh thật, không watermark) |
+| am-sieu-toc-shd1351 | https://salt.tikicdn.com/ts/product/47/dd/82/76e8742851403e6e7387ddc80255fd6f.jpg (CDN Tiki) — kiểm tra thực tế 13/10: SHD1351 đúng là màu xanh mint, 2 lớp (ruột inox 304 + vỏ nhựa PP), 1.8L; ảnh mặt trước nền trắng, 1024x1024 |
+| am-sieu-toc-ejk738 | http://locknlockonline.com/wp-content/uploads/2026/02/EJK738BLK-B80004315_2.webp (locknlockonline.com — đại lý Lock&Lock VN, trang sản phẩm EJK738) — bản đen EJK738BLK, mặt trước nền trắng, 800x800 |
+| am-sieu-toc-hd9306 | https://salt.tikicdn.com/ts/product/e2/93/d0/70c55d4a67d4f36caaa4058d0610cdfa.jpg (CDN Tiki) — ấm inox Philips HD9306, mặt trước nền trắng, 1024x1024 |
+| am-sieu-toc-hd9339 | https://yabloki.ua/media/cache/sylius_shop_product_original/a3/f2/elektrochainik-philips-series-5000-hd9339-80_585b0416-386e-407b-83a9-ac0da8721e0f-4.png.webp (nhà bán lẻ yabloki.ua; tên file gốc ghi rõ hd9339-80) — ấm thủy tinh Series 5000 HD9339/80, mặt trước nền trắng, 970x1040 |
+| am-sieu-toc-kt-17dr1nv | https://web-res.midea.com/content/dam/toshiba-aem/vn/vn-new/pdp/feature/kitchen-appliances/electric-kettle/kt-17dr1nv/1-KT-17DR1NV-Modern-And-Refined-Design.jpg (CDN chính hãng Toshiba/Midea, thư mục sản phẩm kt-17dr1nv) — mặt trước, 1680x1560 |
 
 ## Ảnh lifestyle/đầu bài (`img/`)
 
@@ -40,6 +45,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | sac-du-phong.jpg | https://images.pexels.com/photos/37475662/pexels-photo-37475662/free-photo-of-smartphone-charging-with-power-bank-on-wooden-surface.jpeg (Pexels) |
 | may-xay.jpg | https://images.pexels.com/photos/8845109/pexels-photo-8845109.jpeg (Pexels) |
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
+| am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

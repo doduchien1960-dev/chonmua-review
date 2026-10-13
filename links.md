@@ -58,4 +58,13 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_MAYXAY-KANGAROO-KG4B3}}` | Kangaroo KG4B3 |
 | `{{AFF_LINK_MAYXAY-BLUESTONE-BLB5335}}` | BlueStone BLB-5335 |
 
-Tổng: **22 placeholder** link affiliate.
+### Bài top 5 ấm siêu tốc 2026
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_AM-SIEU-TOC-SHD1351}}` | Sunhouse SHD1351 — 1.8L |
+| `{{AFF_LINK_AM-SIEU-TOC-EJK738}}` | Lock&Lock EJK738 — 1.7L |
+| `{{AFF_LINK_AM-SIEU-TOC-HD9306}}` | Philips HD9306 — 1.5L |
+| `{{AFF_LINK_AM-SIEU-TOC-HD9339}}` | Philips HD9339/80 — 1.7L thủy tinh |
+| `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
+
+Tổng: **27 placeholder** link affiliate.
