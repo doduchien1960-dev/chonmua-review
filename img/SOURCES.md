@@ -34,6 +34,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | am-sieu-toc-hd9306 | https://salt.tikicdn.com/ts/product/e2/93/d0/70c55d4a67d4f36caaa4058d0610cdfa.jpg (CDN Tiki) — ấm inox Philips HD9306, mặt trước nền trắng, 1024x1024 |
 | am-sieu-toc-hd9339 | https://yabloki.ua/media/cache/sylius_shop_product_original/a3/f2/elektrochainik-philips-series-5000-hd9339-80_585b0416-386e-407b-83a9-ac0da8721e0f-4.png.webp (nhà bán lẻ yabloki.ua; tên file gốc ghi rõ hd9339-80) — ấm thủy tinh Series 5000 HD9339/80, mặt trước nền trắng, 970x1040 |
 | am-sieu-toc-kt-17dr1nv | https://web-res.midea.com/content/dam/toshiba-aem/vn/vn-new/pdp/feature/kitchen-appliances/electric-kettle/kt-17dr1nv/1-KT-17DR1NV-Modern-And-Refined-Design.jpg (CDN chính hãng Toshiba/Midea, thư mục sản phẩm kt-17dr1nv) — mặt trước, 1680x1560 |
+| quat-dieu-hoa-shd7717 | https://sunhouse.com.vn/pic/product/images/1077_may_lam_mat_khong_khi_sunhouse_shd7717_001.jpg (website chính hãng Sunhouse) — kiểm tra thực tế 16/10: SHD7717 mặt trước nền trắng, 684x822 |
+| quat-dieu-hoa-kg50f100 | https://cdnv2.tgdd.vn/mwg-static/dmx/Products/Images/7498/334155/quat-dieu-hoa-kangaroo-kg50f100-110w-1-638754064813643650.jpg (CDN Điện Máy XANH, trang sản phẩm KG50F100) — kiểm tra thực tế 16/10: mặt trước nền trắng, 1020x680 |
+| quat-dieu-hoa-dm103 | https://cdn2.fptshop.com.vn/unsafe/800x0/daikiosan_dm103_8_3f20033e31.png (CDN FPT Shop, trang sản phẩm Daikiosan DM103) — kiểm tra thực tế 16/10: đúng logo DAIKIOSAN, 800x533, chuyển PNG sang JPG |
+| quat-dieu-hoa-s106 | https://dienmayquanghanh.com/Upload/avatar/ava-quat-lam-mat-khong-khi-boss-s106-1.jpg (điện máy Quang Hạnh, trang sản phẩm Boss S106; nguồn dự phòng vì hc.com.vn từ chối kết nối ngày 16/10) — kiểm tra thực tế 16/10: đúng logo BOSS, mặt trước nền trắng, 900x900 |
 
 ## Ảnh lifestyle/đầu bài (`img/`)
 
@@ -46,6 +50,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | may-xay.jpg | https://images.pexels.com/photos/8845109/pexels-photo-8845109.jpeg (Pexels) |
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
 | am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
+| quat-dieu-hoa.jpg | ảnh sản phẩm chính hãng Sunhouse SHD7717 (dùng chung file với img/products/quat-dieu-hoa-shd7717.jpg), mặt trước nền trắng, 684x822 |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

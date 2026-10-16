@@ -67,4 +67,12 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_AM-SIEU-TOC-HD9339}}` | Philips HD9339/80 — 1.7L thủy tinh |
 | `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
 
-Tổng: **27 placeholder** link affiliate.
+### Bài quạt điều hòa có mát thật không?
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_QUAT-DIEU-HOA-SHD7717}}` | Sunhouse SHD7717 — 80W, 13L |
+| `{{AFF_LINK_QUAT-DIEU-HOA-KG50F100}}` | Kangaroo KG50F100 — 110W, 35L |
+| `{{AFF_LINK_QUAT-DIEU-HOA-DM103}}` | Daikiosan DM103 — 175W, 72L |
+| `{{AFF_LINK_QUAT-DIEU-HOA-S106}}` | Boss S106 — 160W, 28L |
+
+Tổng: **31 placeholder** link affiliate.
