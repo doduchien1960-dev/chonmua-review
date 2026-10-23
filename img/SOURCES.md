@@ -60,3 +60,13 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 - tai-nghe.jpg, sac-du-phong.jpg, may-xay.jpg: Pexels w=1600 (trước 1400).
 - noi-chien.jpg: Wikimedia 1280px -> nén còn 1100px (trước 888px).
 - hero.jpg giữ 1200px (bản CBS, bố cục đẹp nhất trong các nguồn tìm được; trên điện thoại đã nét).
+
+## Ảnh bài bàn ủi hơi nước đứng 23/10/2026 (kiểm tra trực quan: ảnh thật, không watermark)
+| File | Nguồn |
+|---|---|
+| ban-ui-hoi-nuoc-dung.jpg | https://images.pexels.com/photos/9462682/pexels-photo-9462682.jpeg (Pexels, ảnh minh họa ủi đồ, 1600x2400) |
+| products/ban-ui-philips-gc518.jpg | https://shophangduc.vn/wp-content/uploads/2026/08/ban-ui_0001s_0011_gc518.jpg (nhà bán lẻ, Philips GC518 đúng mã, mặt trước nền trắng) |
+| products/ban-ui-tefal-it3440.jpg | https://www.varle.lt/static/uploads/products/4/tef/tefal-it3440-pro-style-garment-steamer-9d8169893c.png (nhà bán lẻ, tên file ghi rõ it3440, kèm màn vải Press & Steam) |
+| products/ban-ui-tefal-it3420.jpg | https://rustans.com/cdn/shop/products/IT3420_3.jpg (nhà bán lẻ, tên file IT3420, Tefal ProStyle đang ủi vest) |
+| products/ban-ui-sunhouse-shd2109.jpg | https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/00924741_Ban_ui_hoi_nuoc_dung_Sunhouse_SHD_2109_02_9ff2e7f711.png (CDN FPT Shop, trang sản phẩm SHD2109) |
+| products/ban-ui-philips-ste1020.jpg | http://www.surmawala.pk/cdn/shop/files/philips-1020.png (nhà bán lẻ, Philips 1000 Series STE1020, 2 trụ, đỏ hồng) |

@@ -67,4 +67,15 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_AM-SIEU-TOC-HD9339}}` | Philips HD9339/80 — 1.7L thủy tinh |
 | `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
 
-Tổng: **27 placeholder** link affiliate.
+### Bài top 5 bàn ủi hơi nước đứng 2026 (nháp 23/10/2026, branch draft/top-5-ban-ui-hoi-nuoc-dung-2026)
+Link tạm trong HTML hiện là link tìm kiếm Shopee (theo mẫu 2 bài gần nhất, blog đang chờ Shopee duyệt affiliate). Khi có link thật, thay các link tìm kiếm dưới đây bằng link affiliate, hoặc dùng placeholder rồi sed như workflow trên.
+
+| Placeholder (dùng khi có link thật) | Sản phẩm | Link tìm kiếm tạm trong HTML |
+|---|---|---|
+| `{{AFF_LINK_BAN-UI-PHILIPS-GC518}}` | Philips GC518/29 — 1.6L | https://shopee.vn/search?keyword=Philips%20GC518 |
+| `{{AFF_LINK_BAN-UI-TEFAL-IT3440}}` | Tefal IT3440E0 — 1.5L | https://shopee.vn/search?keyword=Tefal%20IT3440E0 |
+| `{{AFF_LINK_BAN-UI-TEFAL-IT3420}}` | Tefal IT3420E0 — 1.5L | https://shopee.vn/search?keyword=Tefal%20IT3420E0 |
+| `{{AFF_LINK_BAN-UI-SUNHOUSE-SHD2109}}` | Sunhouse SHD2109 — 1.6L | https://shopee.vn/search?keyword=Sunhouse%20SHD2109 |
+| `{{AFF_LINK_BAN-UI-PHILIPS-STE1020}}` | Philips STE1020/40 — 1.8L | https://shopee.vn/search?keyword=Philips%20STE1020 |
+
+Tổng: **27 placeholder** link affiliate (chưa kể 5 placeholder mới của bài bàn ủi hơi nước đứng, đang chờ link thật).
