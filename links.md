@@ -68,3 +68,12 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
 
 Tổng: **27 placeholder** link affiliate.
+
+### Bài đối đầu sạc dự phòng 20000mAh: Baseus vs Ugreen vs Xiaomi (nháp 27/10/2026, branch draft/sac-du-phong-20000mah-baseus-ugreen-xiaomi)
+Link tạm trong HTML hiện là link tìm kiếm Shopee (blog đang chờ Shopee duyệt affiliate). Khi có link thật, thay các link tìm kiếm dưới đây bằng link affiliate; placeholder cho 3 sản phẩm này đã có sẵn ở mục "Bài sạc dự phòng" phía trên, không tạo placeholder mới trùng.
+
+| Sản phẩm | Link tìm kiếm tạm trong HTML |
+|---|---|
+| Xiaomi Mi Power Bank 3 PLM18ZM | https://shopee.vn/search?keyword=Xiaomi%20Mi%20Power%20Bank%203%2020000mAh%2018W |
+| Baseus Adaman PPADM20S | https://shopee.vn/search?keyword=Baseus%20Adaman%2020000mAh%2022.5W |
+| Ugreen PB312 25683B | https://shopee.vn/search?keyword=Ugreen%20PB312%2020000mAh |
