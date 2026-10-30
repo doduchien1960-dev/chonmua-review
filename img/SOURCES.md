@@ -7,6 +7,12 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 
 | Slug | Nguồn |
 |---|---|
+| philips-hd2137 | https://ansons.ph/wp-content/uploads/2020/07/HD2137.png (nhà bán lẻ Ansons, đã kiểm tra trực quan: ảnh thật Philips HD2137) |
+| sunhouse-shd1552 | http://img.websosanh.vn/v2/users/root_product/images/noi-da-nang-sunhouse-shd1552/g0UIG0LfMzmh.jpg (WebSoSanh, đã kiểm tra trực quan: ảnh thật Sunhouse SHD1552) |
+| kangaroo-kg6p2 | https://media.meta.vn/Data/image/2022/02/11/noi-ap-suat-dien-kangaroo-kg6p2-6-lit-1.jpg (META.vn, đã kiểm tra trực quan: ảnh thật Kangaroo KG6P2, menu tiếng Việt) |
+
+| Slug | Nguồn |
+|---|---|
 | philips-hd9252-90 | https://m.media-amazon.com/images/I/31GJBu6BCmL._SL500_.jpg (CDN Amazon) |
 | locknlock-ejf357 | https://salt.tikicdn.com/ts/product/01/b8/b2/2852f6492f8fc214e0e4d1cee6ceadf3.jpg (CDN Tiki) |
 | kalite-q10 | https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/2022_8_27_637972175723968118_HASP-NOI-CHIEN-KALITE-Q10-4.jpg (CDN FPT Shop) |
@@ -46,6 +52,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | may-xay.jpg | https://images.pexels.com/photos/8845109/pexels-photo-8845109.jpeg (Pexels) |
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
 | am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
+| noi-ap-suat.jpg | https://i2.wp.com/pressurecookingtoday.com/wp-content/uploads/2025/11/Homemade_Beef_Stew_Instant_Pot_recipe_by_Pressure_Cooking_Today_PCT-99381.jpg (Pressure Cooking Today — ảnh thật tô thịt bò hầm, 1800x1202) |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

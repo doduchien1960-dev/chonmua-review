@@ -68,3 +68,12 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
 
 Tổng: **27 placeholder** link affiliate.
+
+### Bài nồi áp suất điện theo số người trong nhà (nháp 30/10/2026, branch draft/noi-ap-suat-dien-chon-theo-so-nguoi)
+Link tạm trong HTML hiện là link tìm kiếm Shopee (blog đang chờ Shopee duyệt affiliate). Khi có link thật, thay các link tìm kiếm dưới đây bằng link affiliate.
+
+| Sản phẩm | Link tìm kiếm tạm trong HTML |
+|---|---|
+| Sunhouse SHD1552 5L | https://shopee.vn/search?keyword=Sunhouse%20SHD1552 |
+| Kangaroo KG6P2 6L | https://shopee.vn/search?keyword=Kangaroo%20KG6P2 |
+| Philips HD2137 6L | https://shopee.vn/search?keyword=Philips%20HD2137 |
