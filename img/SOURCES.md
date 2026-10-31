@@ -7,6 +7,12 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 
 | Slug | Nguồn |
 |---|---|
+| philips-hd2137 | https://ansons.ph/wp-content/uploads/2020/07/HD2137.png (nhà bán lẻ Ansons, đã kiểm tra trực quan: ảnh thật Philips HD2137) |
+| sunhouse-shd1552 | http://img.websosanh.vn/v2/users/root_product/images/noi-da-nang-sunhouse-shd1552/g0UIG0LfMzmh.jpg (WebSoSanh, đã kiểm tra trực quan: ảnh thật Sunhouse SHD1552) |
+| kangaroo-kg6p2 | https://media.meta.vn/Data/image/2022/02/11/noi-ap-suat-dien-kangaroo-kg6p2-6-lit-1.jpg (META.vn, đã kiểm tra trực quan: ảnh thật Kangaroo KG6P2, menu tiếng Việt) |
+
+| Slug | Nguồn |
+|---|---|
 | philips-hd9252-90 | https://m.media-amazon.com/images/I/31GJBu6BCmL._SL500_.jpg (CDN Amazon) |
 | locknlock-ejf357 | https://salt.tikicdn.com/ts/product/01/b8/b2/2852f6492f8fc214e0e4d1cee6ceadf3.jpg (CDN Tiki) |
 | kalite-q10 | https://cdn2.fptshop.com.vn/unsafe/750x0/filters:format(webp):quality(75)/2022_8_27_637972175723968118_HASP-NOI-CHIEN-KALITE-Q10-4.jpg (CDN FPT Shop) |
@@ -60,6 +66,8 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | products/tai-nghe-baseus-bp1-pro.jpg | techlove.pl (ảnh sản phẩm Baseus Bass BP1 Pro màu đen, 768x960), bài đánh giá 28/05/2025 |
 | products/tai-nghe-qcy-ht05.jpg | technogate.gr (ảnh sản phẩm QCY HT05 MeloBuds ANC màu đen, 768x768) |
 | products/tai-nghe-huawei-freebuds-se4.jpg | dalavera.com (ảnh sản phẩm Huawei FreeBuds SE 4 ANC màu trắng, 800x800) |
+| noi-ap-suat.jpg | https://i2.wp.com/pressurecookingtoday.com/wp-content/uploads/2025/11/Homemade_Beef_Stew_Instant_Pot_recipe_by_Pressure_Cooking_Today_PCT-99381.jpg (Pressure Cooking Today — ảnh thật tô thịt bò hầm, 1800x1202) |
+
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

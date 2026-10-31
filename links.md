@@ -105,5 +105,14 @@ Link tạm trong HTML hiện là link tìm kiếm Shopee (blog đang chờ Shope
 | Baseus Adaman PPADM20S | https://shopee.vn/search?keyword=Baseus%20Adaman%2020000mAh%2022.5W |
 | Ugreen PB312 25683B | https://shopee.vn/search?keyword=Ugreen%20PB312%2020000mAh |
 
+### Bài nồi áp suất điện theo số người trong nhà (nháp 30/10/2026, branch draft/noi-ap-suat-dien-chon-theo-so-nguoi)
+Link tạm trong HTML hiện là link tìm kiếm Shopee (blog đang chờ Shopee duyệt affiliate). Khi có link thật, thay các link tìm kiếm dưới đây bằng link affiliate.
+
+| Sản phẩm | Link tìm kiếm tạm trong HTML |
+|---|---|
+| Sunhouse SHD1552 5L | https://shopee.vn/search?keyword=Sunhouse%20SHD1552 |
+| Kangaroo KG6P2 6L | https://shopee.vn/search?keyword=Kangaroo%20KG6P2 |
+| Philips HD2137 6L | https://shopee.vn/search?keyword=Philips%20HD2137 |
+
 Tổng: **40 placeholder** link affiliate.
 
