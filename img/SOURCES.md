@@ -34,6 +34,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | am-sieu-toc-hd9306 | https://salt.tikicdn.com/ts/product/e2/93/d0/70c55d4a67d4f36caaa4058d0610cdfa.jpg (CDN Tiki) — ấm inox Philips HD9306, mặt trước nền trắng, 1024x1024 |
 | am-sieu-toc-hd9339 | https://yabloki.ua/media/cache/sylius_shop_product_original/a3/f2/elektrochainik-philips-series-5000-hd9339-80_585b0416-386e-407b-83a9-ac0da8721e0f-4.png.webp (nhà bán lẻ yabloki.ua; tên file gốc ghi rõ hd9339-80) — ấm thủy tinh Series 5000 HD9339/80, mặt trước nền trắng, 970x1040 |
 | am-sieu-toc-kt-17dr1nv | https://web-res.midea.com/content/dam/toshiba-aem/vn/vn-new/pdp/feature/kitchen-appliances/electric-kettle/kt-17dr1nv/1-KT-17DR1NV-Modern-And-Refined-Design.jpg (CDN chính hãng Toshiba/Midea, thư mục sản phẩm kt-17dr1nv) — mặt trước, 1680x1560 |
+| olivo-sf16-pro | https://meta.vn/Data/Image/2023/12/11/noi-chien-hoi-nuoc-olivo-sf16-pro-1.jpg (CDN META.vn) |
+| philips-na543 | https://images.philips.com/is/image/philipsconsumer/vrs_71e53184_ead3_452c_92ffa0dca1443e65?wid=1600 (website chính hãng Philips) |
+| tefal-fw2018 | https://media.binglee.com.au/cdn-cgi/image/fit=scale-down,f=auto,w=1200/0/4/9/f/049fed0cd5be3ca141d82d833cce6f9c820e7975_Tefal_FW2018_hero.jpg (CDN Bing Lee) |
+| locknlock-ejf881 | https://bizweb.dktcdn.net/thumb/large/100/523/141/products/noi-chien-khong-dau-ket-hop-chuc-nang-hap-locklock-ejf881-2-900x900.png?v=1739499352773 (locknlockvietnam.net) |
 
 ## Ảnh lifestyle/đầu bài (`img/`)
 
@@ -46,6 +50,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | may-xay.jpg | https://images.pexels.com/photos/8845109/pexels-photo-8845109.jpeg (Pexels) |
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
 | am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
+| noi-chien-hoi-nuoc.jpg | https://www.sunbeam.com.au/media/magefan_blog/Sunbeam_SteamFry_Cooked_Whole_Chicken_1200x950.jpg (blog Sunbeam, ảnh gà nướng nguyên con trong khay nồi chiên hơi nước) |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 

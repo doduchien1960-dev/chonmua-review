@@ -67,4 +67,12 @@ canonical/OG hiện là tên dự kiến. Sau khi deploy Vercel có domain thậ
 | `{{AFF_LINK_AM-SIEU-TOC-HD9339}}` | Philips HD9339/80 — 1.7L thủy tinh |
 | `{{AFF_LINK_AM-SIEU-TOC-KT-17DR1NV}}` | Toshiba KT-17DR1NV — 1.7L |
 
-Tổng: **27 placeholder** link affiliate.
+### Bài nồi chiên hơi nước
+| Placeholder | Sản phẩm |
+|---|---|
+| `{{AFF_LINK_NOI-CHIEN-OLIVO-SF16}}` | Olivo SF16 Pro — 16L |
+| `{{AFF_LINK_NOI-CHIEN-PHILIPS-NA543}}` | Philips NA543/00 — 7.2L |
+| `{{AFF_LINK_NOI-CHIEN-LOCKNLOCK-EJF881}}` | Lock&Lock EJF881 — 7L |
+| `{{AFF_LINK_NOI-CHIEN-TEFAL-FW2018}}` | Tefal FW201815 — 6.5L |
+
+Tổng: **31 placeholder** link affiliate.
