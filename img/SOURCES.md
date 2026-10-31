@@ -56,6 +56,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
 | noi-chien-hoi-nuoc.jpg | https://www.sunbeam.com.au/media/magefan_blog/Sunbeam_SteamFry_Cooked_Whole_Chicken_1200x950.jpg (blog Sunbeam, ảnh gà nướng nguyên con trong khay nồi chiên hơi nước) |
 | quat-dieu-hoa.jpg | ảnh sản phẩm chính hãng Sunhouse SHD7717 (dùng chung file với img/products/quat-dieu-hoa-shd7717.jpg), mặt trước nền trắng, 684x822 |
+| tai-nghe-chong-on.jpg | ảnh của David Leveque trên Unsplash (tai nghe true wireless trên bàn, 720x1280), qua mensxp.com |
+| products/tai-nghe-baseus-bp1-pro.jpg | techlove.pl (ảnh sản phẩm Baseus Bass BP1 Pro màu đen, 768x960), bài đánh giá 28/05/2025 |
+| products/tai-nghe-qcy-ht05.jpg | technogate.gr (ảnh sản phẩm QCY HT05 MeloBuds ANC màu đen, 768x768) |
+| products/tai-nghe-huawei-freebuds-se4.jpg | dalavera.com (ảnh sản phẩm Huawei FreeBuds SE 4 ANC màu trắng, 800x800) |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 
