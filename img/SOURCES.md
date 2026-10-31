@@ -38,6 +38,10 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | philips-na543 | https://images.philips.com/is/image/philipsconsumer/vrs_71e53184_ead3_452c_92ffa0dca1443e65?wid=1600 (website chính hãng Philips) |
 | tefal-fw2018 | https://media.binglee.com.au/cdn-cgi/image/fit=scale-down,f=auto,w=1200/0/4/9/f/049fed0cd5be3ca141d82d833cce6f9c820e7975_Tefal_FW2018_hero.jpg (CDN Bing Lee) |
 | locknlock-ejf881 | https://bizweb.dktcdn.net/thumb/large/100/523/141/products/noi-chien-khong-dau-ket-hop-chuc-nang-hap-locklock-ejf881-2-900x900.png?v=1739499352773 (locknlockvietnam.net) |
+| quat-dieu-hoa-shd7717 | https://sunhouse.com.vn/pic/product/images/1077_may_lam_mat_khong_khi_sunhouse_shd7717_001.jpg (website chính hãng Sunhouse) — kiểm tra thực tế 16/10: SHD7717 mặt trước nền trắng, 684x822 |
+| quat-dieu-hoa-kg50f100 | https://cdnv2.tgdd.vn/mwg-static/dmx/Products/Images/7498/334155/quat-dieu-hoa-kangaroo-kg50f100-110w-1-638754064813643650.jpg (CDN Điện Máy XANH, trang sản phẩm KG50F100) — kiểm tra thực tế 16/10: mặt trước nền trắng, 1020x680 |
+| quat-dieu-hoa-dm103 | https://cdn2.fptshop.com.vn/unsafe/800x0/daikiosan_dm103_8_3f20033e31.png (CDN FPT Shop, trang sản phẩm Daikiosan DM103) — kiểm tra thực tế 16/10: đúng logo DAIKIOSAN, 800x533, chuyển PNG sang JPG |
+| quat-dieu-hoa-s106 | https://dienmayquanghanh.com/Upload/avatar/ava-quat-lam-mat-khong-khi-boss-s106-1.jpg (điện máy Quang Hạnh, trang sản phẩm Boss S106; nguồn dự phòng vì hc.com.vn từ chối kết nối ngày 16/10) — kiểm tra thực tế 16/10: đúng logo BOSS, mặt trước nền trắng, 900x900 |
 
 ## Ảnh lifestyle/đầu bài (`img/`)
 
@@ -51,6 +55,7 @@ Tải và chuẩn hóa ngày 2026-10-08. Tất cả đã kiểm tra: ảnh chụ
 | philips-vs-locknlock.jpg | https://bellawebsite.s3.ap-northeast-1.amazonaws.com/articlesImg/f4829a6e-9827-11f0-82b1-0666ea576130.jpg (bella.tw) |
 | am-sieu-toc.jpg | https://images.pexels.com/photos/10965748/pexels-photo-10965748.jpeg (Pexels — ấm thủy tinh đựng đầy nước + tách trà túi lọc trên nền sáng, ảnh thật, 1200x627) |
 | noi-chien-hoi-nuoc.jpg | https://www.sunbeam.com.au/media/magefan_blog/Sunbeam_SteamFry_Cooked_Whole_Chicken_1200x950.jpg (blog Sunbeam, ảnh gà nướng nguyên con trong khay nồi chiên hơi nước) |
+| quat-dieu-hoa.jpg | ảnh sản phẩm chính hãng Sunhouse SHD7717 (dùng chung file với img/products/quat-dieu-hoa-shd7717.jpg), mặt trước nền trắng, 684x822 |
 
 ## Ghi chú thay thế ảnh trong HTML (cho bước tiếp theo)
 
