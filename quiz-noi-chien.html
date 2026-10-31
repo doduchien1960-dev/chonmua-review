@@ -141,7 +141,7 @@
   function showResult(){
     qbar.style.width="100%";
     var key=pick(answers), r=RESULTS[key];
-    qbox.innerHTML='<div class="quiz-result">'
+    qbox.innerHTML='<div class="quiz-result" aria-live="polite">'
       +'<span class="pick-tag">Gợi ý cho bạn</span>'
       +'<h2 style="margin:6px 0 10px">'+r.name+'</h2>'
       +'<p class="price">Giá tham khảo: '+r.price+' <span>(giá thay đổi theo đợt sale)</span></p>'
