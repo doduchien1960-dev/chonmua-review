@@ -93,7 +93,17 @@ Link tạm trong HTML hiện là link tìm kiếm Shopee (theo mẫu 2 bài gầ
 | `{{AFF_LINK_BAN-UI-SUNHOUSE-SHD2109}}` | Sunhouse SHD2109 — 1.6L | https://shopee.vn/search?keyword=Sunhouse%20SHD2109 |
 | `{{AFF_LINK_BAN-UI-PHILIPS-STE1020}}` | Philips STE1020/40 — 1.8L | https://shopee.vn/search?keyword=Philips%20STE1020 |
 
-Tổng: **27 placeholder** link affiliate (chưa kể 5 placeholder mới của bài bàn ủi hơi nước đứng, đang chờ link thật).
+
+ (Draft: Top 5 ban ui hoi nuoc dung 2026 (nhap cho duyet, 23/10/2026))
+
+### Bài đối đầu sạc dự phòng 20000mAh: Baseus vs Ugreen vs Xiaomi (nháp 27/10/2026, branch draft/sac-du-phong-20000mah-baseus-ugreen-xiaomi)
+Link tạm trong HTML hiện là link tìm kiếm Shopee (blog đang chờ Shopee duyệt affiliate). Khi có link thật, thay các link tìm kiếm dưới đây bằng link affiliate; placeholder cho 3 sản phẩm này đã có sẵn ở mục "Bài sạc dự phòng" phía trên, không tạo placeholder mới trùng.
+
+| Sản phẩm | Link tìm kiếm tạm trong HTML |
+|---|---|
+| Xiaomi Mi Power Bank 3 PLM18ZM | https://shopee.vn/search?keyword=Xiaomi%20Mi%20Power%20Bank%203%2020000mAh%2018W |
+| Baseus Adaman PPADM20S | https://shopee.vn/search?keyword=Baseus%20Adaman%2020000mAh%2022.5W |
+| Ugreen PB312 25683B | https://shopee.vn/search?keyword=Ugreen%20PB312%2020000mAh |
 
 Tổng: **40 placeholder** link affiliate.
- (Draft: Top 5 ban ui hoi nuoc dung 2026 (nhap cho duyet, 23/10/2026))
+
